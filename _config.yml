@@ -1,0 +1,13 @@
+title: GitHub Copilot Links
+description: A curated collection of GitHub Copilot links and resources organized by category.
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from the Jekyll build
+exclude:
+  - README.md
+  - .github/
+  - scripts/
