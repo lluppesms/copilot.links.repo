@@ -8,5 +8,6 @@
 
 - YouTube: <a href="https://www.youtube.com/watch?v=fabAI1OKKww">The complete guide to Agent Skills</a> (Burke Holland)  A comprehensive walkthrough of creating and using agent skills
 
-- <a href="https://code.visualstudio.com/docs/copilot/agents/third-party-agents"> Enabling 3rd Party Agents in VS Code</a> How can you enable 3rd party agents like Claude Code in VS Code
+- YouTube: <a href="https://www.youtube.com/watch?v=-BhfcPseWFQ">After This Video, You'll Actually Understand Agent Orchestration</a> (Burke Holland)
 
+- <a href="https://code.visualstudio.com/docs/copilot/agents/third-party-agents"> Enabling 3rd Party Agents in VS Code</a> How can you enable 3rd party agents like Claude Code in VS Code
