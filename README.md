@@ -2,6 +2,8 @@
 
 A simple repository of curated GitHub Copilot links organized by category, published as a static site on GitHub Pages.
 
+Live page is at: [https://lluppesms.github.io/copilot.links.repo/](https://lluppesms.github.io/copilot.links.repo/)
+
 ## Structure
 
 ```
