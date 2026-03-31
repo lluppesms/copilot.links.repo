@@ -5,8 +5,11 @@ title: GitHub Copilot Links
 
 Lyle's curated collection of links and resources organized by category.
 
-<div id="search-box" style="margin: 1.5em 0 1em;">
-  <input type="text" id="link-filter" placeholder="🔍 Filter links…" style="width: 100%; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
+<div id="filter-controls" style="margin: 1.5em 0 1em; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+  <select id="category-filter" style="flex: 0 0 auto; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer;">
+    <option value="">All Categories</option>
+  </select>
+  <input type="text" id="link-filter" placeholder="🔍 Filter links…" style="flex: 1 1 200px; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
 </div>
 
 ---
@@ -65,32 +68,62 @@ Lyle's curated collection of links and resources organized by category.
 
 <script>
 (function () {
+  var select = document.getElementById('category-filter');
   var input = document.getElementById('link-filter');
-  if (!input) return;
+  if (!select || !input) return;
 
-  input.addEventListener('input', function () {
-    var term = this.value.toLowerCase().trim();
-    var sections = document.querySelectorAll('.link-section');
+  var sections = document.querySelectorAll('.link-section');
+
+  // Populate dropdown from the H2 heading in each section
+  sections.forEach(function (section) {
+    var h2 = section.querySelector('h2');
+    if (h2) {
+      var opt = document.createElement('option');
+      opt.value = h2.textContent.trim();
+      opt.textContent = h2.textContent.trim();
+      select.appendChild(opt);
+    }
+  });
+
+  function applyFilters() {
+    var term = input.value.toLowerCase().trim();
+    var category = select.value;
 
     sections.forEach(function (section) {
-      var items = section.querySelectorAll('li');
-      var anyVisible = false;
+      var h2 = section.querySelector('h2');
+      var sectionName = h2 ? h2.textContent.trim() : '';
+      var categoryMatch = !category || sectionName === category;
 
-      items.forEach(function (item) {
-        var matches = !term || item.textContent.toLowerCase().includes(term);
-        item.style.display = matches ? '' : 'none';
-        if (matches) anyVisible = true;
-      });
+      var show = false;
+      if (categoryMatch) {
+        var items = section.querySelectorAll('li');
+        var anyVisible = false;
 
-      var show = !term || anyVisible;
-      section.style.display = show ? '' : 'none';
+        items.forEach(function (item) {
+          var matches = !term || item.textContent.toLowerCase().includes(term);
+          item.style.display = matches ? '' : 'none';
+          if (matches) anyVisible = true;
+        });
+
+        show = !term || anyVisible;
+      } else {
+        // Hide all items in non-matching sections so text filter stays clean
+        section.querySelectorAll('li').forEach(function (item) {
+          item.style.display = '';
+        });
+      }
+
+      section.style.display = (categoryMatch && show) ? '' : 'none';
 
       var next = section.nextElementSibling;
       if (next && next.classList.contains('section-sep')) {
-        next.style.display = show ? '' : 'none';
+        next.style.display = (categoryMatch && show) ? '' : 'none';
       }
     });
-  });
+  }
+
+  select.addEventListener('change', applyFilters);
+  input.addEventListener('input', applyFilters);
 })();
 </script>
 
