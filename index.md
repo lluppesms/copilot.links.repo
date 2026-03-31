@@ -3,6 +3,8 @@ layout: home
 title: GitHub Copilot Links
 ---
 
+<style>.site-header { display: none !important; }</style>
+
 Lyle's curated collection of links and resources organized by category.
 
 <div id="filter-controls" style="margin: 1.5em 0 1em; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
