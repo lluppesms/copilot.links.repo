@@ -11,7 +11,7 @@ Lyle's curated collection of GitHub Copilot links and resources
   <select id="category-filter" style="flex: 0 0 auto; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer;">
     <option value="">All Categories</option>
   </select>
-  <input type="text" id="link-filter" placeholder="🔍 Filter links…" style="flex: 1 1 200px; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
+  <input type="text" id="link-filter" placeholder="🔍 Search these links for…" style="flex: 1 1 200px; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;">
 </div>
 
 ---

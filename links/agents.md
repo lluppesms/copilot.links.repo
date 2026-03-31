@@ -1,5 +1,7 @@
 ## Agents
 
+- <a href="https://code.visualstudio.com/docs/copilot/agents/overview">Using Agents in VS Code</a>
+
 - <a href="https://agents.md/">AGENTS.md</a> The generic general guide to creating agents.
 
 - YouTube: <a href="https://www.youtube.com/watch?v=J5KTpq7hVn4">Multi-agent workflows in VS Code</a> (VS Code Channel)  Demo on how you launch and run multiple agents in the background
