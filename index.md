@@ -5,7 +5,7 @@ title: GitHub Copilot Links
 
 <style>.site-header { display: none !important; }</style>
 
-Lyle's curated collection of links and resources organized by category.
+Lyle's curated collection of GitHub Copilot links and resources
 
 <div id="filter-controls" style="margin: 1.5em 0 1em; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
   <select id="category-filter" style="flex: 0 0 auto; padding: 10px 14px; font-size: 1em; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer;">
