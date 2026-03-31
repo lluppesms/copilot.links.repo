@@ -17,15 +17,7 @@ Lyle's curated collection of links and resources organized by category.
 ---
 
 <div class="link-section" markdown="1">
-{% include_relative links/cheat-sheets.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/learning-paths.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/faqs.md %}
+{% include_relative links/agents.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
@@ -33,27 +25,31 @@ Lyle's curated collection of links and resources organized by category.
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
+{% include_relative links/boards.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/cheat-sheets.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/code-indexes.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/copilot-cli.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/copilot-sdk.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
 {% include_relative links/general-repos.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
-{% include_relative links/cp-cli-sdk.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/models.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/agents.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/skills.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/modernization-skills.md %}
+{% include_relative links/learning-paths.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
@@ -61,11 +57,19 @@ Lyle's curated collection of links and resources organized by category.
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
-{% include_relative links/boards.md %}
+{% include_relative links/models.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
-{% include_relative links/code-indexes.md %}
+{% include_relative links/modernization-skills.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/security.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/skills.md %}
 </div>
 
 <script>
