@@ -30,18 +30,26 @@ permalink: /memes/
       .then(function (res) { return res.text(); })
       .then(function (text) {
         var lines = text.trim().split('\n');
-        // skip header row
+        // skip header row, collect entries
+        var entries = [];
         for (var i = 1; i < lines.length; i++) {
           var parts = lines[i].split('\t');
           if (parts.length < 2) continue;
           var name = parts[0].trim();
           var desc = parts[1].trim();
           if (!name) continue;
-          var opt = document.createElement('option');
-          opt.value = name;
-          opt.textContent = desc;
-          select.appendChild(opt);
+          entries.push({ name: name, desc: desc });
         }
+        // sort alphabetically by description
+        entries.sort(function (a, b) {
+          return a.desc.toLowerCase().localeCompare(b.desc.toLowerCase());
+        });
+        entries.forEach(function (entry) {
+          var opt = document.createElement('option');
+          opt.value = entry.name;
+          opt.textContent = entry.desc;
+          select.appendChild(opt);
+        });
       })
       .catch(function (err) {
         console.error('Failed to load ImageList.tsv:', err);
