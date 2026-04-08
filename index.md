@@ -72,6 +72,12 @@ Lyle's curated collection of GitHub Copilot links and resources
 {% include_relative links/skills.md %}
 </div>
 
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+<a href="/memes/" style="display: inline-block; padding: 12px 18px; background: #f0f0f0; border-radius: 6px; text-decoration: none; color: #333; font-weight: bold;">😄 Check out my favorite AI memes!</a>
+</div>
+
+
 <script>
 (function () {
   var select = document.getElementById('category-filter');

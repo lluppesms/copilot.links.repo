@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI Memes
+title: My Favorite AI Memes
 permalink: /memes/
 ---
 
