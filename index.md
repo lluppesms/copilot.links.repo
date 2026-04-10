@@ -57,6 +57,10 @@ Lyle's curated collection of GitHub Copilot links and resources
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
+{% include_relative links/memories.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
 {% include_relative links/models.md %}
 </div>
 <hr class="section-sep">
@@ -65,7 +69,7 @@ Lyle's curated collection of GitHub Copilot links and resources
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
-{% include_relative links/security.md %}
+{% include_relative links/security-info.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
