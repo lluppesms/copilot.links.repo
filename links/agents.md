@@ -15,3 +15,5 @@
 - <a href="https://code.visualstudio.com/docs/copilot/agents/third-party-agents"> Enabling 3rd Party Agents in VS Code</a> How can you enable 3rd party agents like Claude Code in VS Code
 
 - <a href="https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals">AGENTS.md outperforms skills in our agent evals - Vercel</a>  (Jan 2026) They got different results when putting data in AGENTS.md vs putting in just skills...?
+
+- <a href="https://code.visualstudio.com/docs/copilot/chat/chat-debug-view">Agent Debug Logs</a>
