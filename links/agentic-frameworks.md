@@ -1,0 +1,7 @@
+## Agentic Frameworks
+
+Note: these are NOT frameworks in the sense of an SDK like Microsoft's `<a href="https://learn.microsoft.com/en-us/agent-framework">Agent Framework</a>`.  These are good examples of people creating a cool framework for using agents in the process
+
+- <a href="https://github.com/microsoft/hve-core">Hypervelocity Engineering components</a> A refined collection of instructions, prompts, agents, and skills to start your project off right, or upgrade your existing projects to get the most out of all Copilots
+
+- <a href="https://github.com/bradygaster/squad">Squad: AI agent teams for any project</a>  (Brady Gaster)

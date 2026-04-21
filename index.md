@@ -21,6 +21,10 @@ Lyle's curated collection of GitHub Copilot links and resources
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
+{% include_relative links/agentic-frameworks.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
 {% include_relative links/agentic-workflow.md %}
 </div>
 <hr class="section-sep">
