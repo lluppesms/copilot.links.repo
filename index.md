@@ -53,6 +53,14 @@ Lyle's curated collection of GitHub Copilot links and resources
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
+{% include_relative links/labs.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/languages.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
 {% include_relative links/learning-paths.md %}
 </div>
 <hr class="section-sep">
