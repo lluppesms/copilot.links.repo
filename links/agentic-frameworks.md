@@ -10,3 +10,5 @@ Note: these are NOT frameworks in the sense of an SDK like Microsoft's <a target
 ---
 
 - <a target="_blank" href="https://github.com/bradygaster/squad">Squad: AI agent teams for any project</a>  (Brady Gaster)
+
+- <a target="_blank" href="https://www.dotnetrocks.com/details/1994">.Net Rocks! Podcast: Building Software using Squad with Brady Gaster> (March 19, 2026)
