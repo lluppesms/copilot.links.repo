@@ -157,6 +157,49 @@ Lyle's curated collection of GitHub Copilot links and resources
 
   select.addEventListener('change', applyFilters);
   input.addEventListener('input', applyFilters);
+
+  // Pre-select category and/or search term from the URL on page load.
+  // Supported formats:
+  //   ?billing           (bare key — matches category case-insensitively)
+  //   ?category=Billing  (explicit key)
+  //   ?search=some+text  (pre-fill the text filter)
+  //   #billing           (hash fragment — same as bare key)
+  (function applyUrlParams() {
+    var params = new URLSearchParams(window.location.search);
+
+    // Resolve requested category: ?category=X wins, then bare ?key, then #hash
+    var requestedCategory = params.get('category');
+    if (!requestedCategory) {
+      params.forEach(function (val, key) {
+        if (!requestedCategory && val === '' && key !== 'search') {
+          requestedCategory = key;
+        }
+      });
+    }
+    if (!requestedCategory && window.location.hash) {
+      requestedCategory = decodeURIComponent(window.location.hash.slice(1));
+    }
+
+    if (requestedCategory) {
+      var lower = requestedCategory.toLowerCase();
+      for (var i = 0; i < select.options.length; i++) {
+        if (select.options[i].value.toLowerCase() === lower) {
+          select.value = select.options[i].value;
+          break;
+        }
+      }
+    }
+
+    // Pre-fill search box: ?search=X
+    var requestedSearch = params.get('search');
+    if (requestedSearch) {
+      input.value = requestedSearch;
+    }
+
+    if (requestedCategory || requestedSearch) {
+      applyFilters();
+    }
+  })();
 })();
 </script>
 
