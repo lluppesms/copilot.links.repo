@@ -6,7 +6,12 @@ Note: these are NOT frameworks in the sense of an SDK like Microsoft's <a target
 
 #### Squad 
 
-- <a target="_blank" href="https://github.com/bradygaster/squad">Squad: AI agent teams for any project</a>  (Brady Gaster)
+
+- <a target="_blank" href="https://bradygaster.github.io/squad/">Squad: AI agent teams for any project (Docs)</a>  (Brady Gaster)
+- <a target="_blank" href="https://github.com/bradygaster/squad">Squad: AI agent teams for any project (GitHub)</a>  (Brady Gaster)
+- <a target="_blank" href="https://deepwiki.com/bradygaster/squad/1-overview">Squad: DeepWiki Docs</a>
+- <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/">How Squad runs coordinated AI agents inside your repository</a> (GitHub Blog)
+
 - <a target="_blank" href="https://www.dotnetrocks.com/details/1994">.Net Rocks! Podcast: Building Software using Squad with Brady Gaster> (March 19, 2026)
 
 ---
