@@ -41,5 +41,5 @@ This feature is experimental and requires the   github.copilot.chat.localIndex.e
     
 #### Chat Customizations Evaluations
     
-![Custom Chat Evaluations](../images/Custom-Chat-Evaluations.png)
+![Custom Chat Evaluations](./images/Custom-Chat-Evaluations.png)
 
