@@ -4,7 +4,7 @@
 
 - VS Code Update Log: <a target="_blank" href="https://code.visualstudio.com/updates/">https://code.visualstudio.com/updates/</a>
 - Copilot Update Log: <a target="_blank" href="https://github.blog/changelog/label/copilot/">https://github.blog/changelog/label/copilot/</a>
-- Copilot CLI Update Log: - <a target="_blank" href="https://code.visualstudio.com/updates/">https://code.visualstudio.com/updates/</a>
+- Copilot CLI Update Log: - <a target="_blank" href="https://github.com/github/copilot-cli/releases">https://github.com/github/copilot-cli/releases</a>
 
 ---
 ### Notable Changes in v1.119 - May 5, 2026
