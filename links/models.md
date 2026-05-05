@@ -17,9 +17,9 @@ Your mileage may vary, and the best way to find out is to experiment with differ
 |-------------------------|------------------------------------|-----------------------------------------------------------------|
 | Planning/Requirements   | GPT-5.4 (High)                     | Multi-step problem solving and architecture-level code analysis |
 | Architecture            | GPT-5.4 (High)                     | Complex reasoning, system design trade-offs                     |
-| UI/UX Design            | Claude Opus 4.6                    | Best for CSS, visual design, layout, frontend work              |
+| UI/UX Design            | Claude Opus 4.6/7                  | Best for CSS, visual design, layout, frontend work              |
 | Development             | GPT-5.3-Codex (High)               | Code-specialized model, best for implementation                 |
-| Code Review             | Claude Opus 4.6 or Sonnet          | Good for review without heavy compute                           |
+| Code Review             | Claude Opus 4.6/7 or Sonnet        | Good for review without heavy compute                           |
 | Testing                 | GPT-5.3-Codex (High)               | Code-aware model great for test generation                      |
 | Documentation           | Claude Haiku or  GPT-5.4 Mini      | Fast, reliable answers to lightweight coding questions          |
 | Deployment/DevOps       | GPT-5.3-Codex (High)               | Agentic tasks, IaC, pipeline YAML, scripting                    |
