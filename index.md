@@ -152,6 +152,14 @@ Lyle's curated collection of GitHub Copilot links and resources
 
       section.style.display = (categoryMatch && show) ? '' : 'none';
 
+      // Auto-expand section when a specific category is selected via dropdown
+      if (category && categoryMatch && show) {
+        var body = section.querySelector('.section-body');
+        var arrow = section.querySelector('.section-arrow');
+        if (body) body.style.display = '';
+        if (arrow) arrow.textContent = '▼';
+      }
+
       var next = section.nextElementSibling;
       if (next && next.classList.contains('section-sep')) {
         next.style.display = (categoryMatch && show) ? '' : 'none';
@@ -161,6 +169,37 @@ Lyle's curated collection of GitHub Copilot links and resources
 
   select.addEventListener('change', applyFilters);
   input.addEventListener('input', applyFilters);
+
+  // Set up h2 headings as collapse/expand toggles — all start collapsed
+  sections.forEach(function(section) {
+    var h2 = section.querySelector('h2');
+    if (!h2) return;
+
+    // Move all sibling nodes after h2 into a wrapper div
+    var body = document.createElement('div');
+    body.className = 'section-body';
+    body.style.display = 'none';
+    var nodes = [];
+    var node = h2.nextSibling;
+    while (node) { nodes.push(node); node = node.nextSibling; }
+    nodes.forEach(function(n) { body.appendChild(n); });
+    section.appendChild(body);
+
+    // Style h2 as a clickable toggle
+    h2.style.cursor = 'pointer';
+    h2.style.userSelect = 'none';
+    var arrow = document.createElement('span');
+    arrow.className = 'section-arrow';
+    arrow.style.cssText = 'font-size:0.7em; margin-left:8px; color:#555; vertical-align:middle;';
+    arrow.textContent = '▶';
+    h2.appendChild(arrow);
+
+    h2.addEventListener('click', function() {
+      var open = body.style.display !== 'none';
+      body.style.display = open ? 'none' : '';
+      arrow.textContent = open ? '▶' : '▼';
+    });
+  });
 
   // Pre-select category and/or search term from the URL on page load.
   // Supported formats:
