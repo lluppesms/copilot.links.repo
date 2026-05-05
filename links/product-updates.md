@@ -9,12 +9,17 @@
 ---
 ### Notable Changes in v1.119 - May 5, 2026
 
+- Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_119">https://code.visualstudio.com/updates/v1_119</a>
+
+#### **Markdown View Toggle**
 Enabled markdown view toggle - Shift-Control-V == toggle source view vs preview mode view
 
 ---
 ### Notable Changes in v1.118.1 - April 30, 2026
 
-#### Dedicated context for skills (Experimental -> v1.118.1  April 30, 2026)
+- Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_118">https://code.visualstudio.com/updates/v1_118</a>
+
+#### **Dedicated context for skills** (Experimental)
 
 > Setting:   github.copilot.chat.skillTool.enabled
 
@@ -27,7 +32,7 @@ When you use a skill that performs multi-step tool calls or pulls in large refer
 ```
     
     
-#### Chronicle (Experimental -> v1.118.1  April 30, 2026)
+#### **Chronicle** (Experimental)
 > Setting:   github.copilot.chat.localIndex.enabled
 
 As you rely more on Copilot, your chat history becomes a valuable record of what you worked on, which files you touched, and which PRs and issues you referenced. But that history is hard to revisit: scrolling through past sessions to remember what you did yesterday or to prepare for a standup is slow, and there's no easy way to ask questions across sessions or learn from your own usage patterns.
@@ -39,7 +44,19 @@ Chronicle exposes a few commands you can use in chat to query your session histo
 This feature is experimental and requires the   github.copilot.chat.localIndex.enabled setting to be enabled.
     
     
-#### Chat Customizations Evaluations
+#### **Chat Customizations Evaluations**
     
 ![Custom Chat Evaluations](./images/Custom-Chat-Evaluations.png)
 
+
+---
+### Notable Changes in v1.117 - April 22, 2026
+ 
+- Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_117">https://code.visualstudio.com/updates/v1_117</a>
+
+#### **BYOK Models**
+Bring your own key for Copilot Business and Enterprise
+
+#### **Incremental rendering of chat responses** (Experimental)
+
+#### **New Agent experience**
