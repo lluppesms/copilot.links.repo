@@ -19,6 +19,9 @@ Enabled markdown view toggle - Shift-Control-V == toggle source view vs preview 
 
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_118">https://code.visualstudio.com/updates/v1_118</a>
 
+#### **Improving token efficiency**
+Several changes internally to improve effiency without degrading agent quality, such as better prompt caching and search tools.
+
 #### **Dedicated context for skills** (Experimental)
 
 > Setting:   github.copilot.chat.skillTool.enabled

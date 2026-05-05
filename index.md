@@ -115,9 +115,11 @@ Lyle's curated collection of GitHub Copilot links and resources
   sections.forEach(function (section) {
     var h2 = section.querySelector('h2');
     if (h2) {
+      var name = h2.textContent.trim();
+      section.dataset.sectionname = name;
       var opt = document.createElement('option');
-      opt.value = h2.textContent.trim();
-      opt.textContent = h2.textContent.trim();
+      opt.value = name;
+      opt.textContent = name;
       select.appendChild(opt);
     }
   });
@@ -127,8 +129,7 @@ Lyle's curated collection of GitHub Copilot links and resources
     var category = select.value;
 
     sections.forEach(function (section) {
-      var h2 = section.querySelector('h2');
-      var sectionName = h2 ? h2.textContent.trim() : '';
+var sectionName = section.dataset.sectionname || '';
       var categoryMatch = !category || sectionName === category;
 
       var show = false;
@@ -157,7 +158,7 @@ Lyle's curated collection of GitHub Copilot links and resources
         var body = section.querySelector('.section-body');
         var arrow = section.querySelector('.section-arrow');
         if (body) body.style.display = '';
-        if (arrow) arrow.textContent = '▼';
+        if (arrow) arrow.textContent = '▼︎';
       }
 
       var next = section.nextElementSibling;
@@ -191,13 +192,13 @@ Lyle's curated collection of GitHub Copilot links and resources
     var arrow = document.createElement('span');
     arrow.className = 'section-arrow';
     arrow.style.cssText = 'font-size:0.7em; margin-left:8px; color:#555; vertical-align:middle;';
-    arrow.textContent = '▶';
+    arrow.textContent = '▶︎';
     h2.appendChild(arrow);
 
     h2.addEventListener('click', function() {
       var open = body.style.display !== 'none';
       body.style.display = open ? 'none' : '';
-      arrow.textContent = open ? '▶' : '▼';
+      arrow.textContent = open ? '▶︎' : '▼︎';
     });
   });
 
