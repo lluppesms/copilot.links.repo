@@ -1,0 +1,25 @@
+<div style="margin-bottom: 20px;">
+  <label for="section-selector" style="font-weight: bold;">Jump to section:</label>
+  <select id="section-selector" style="padding: 6px; margin-left: 8px;">
+    <option value="">-- Select a section --</option>
+    {% assign sections = include.sections | split: "," %}
+    {% for section in sections %}
+      <option value="{{ section | strip }}">{{ section | strip }}</option>
+    {% endfor %}
+  </select>
+</div>
+
+<script>
+document.getElementById('section-selector').addEventListener('change', function(e) {
+  const selected = e.target.value;
+  const allDetails = document.querySelectorAll('details[data-section]');
+  
+  allDetails.forEach(detail => {
+    if (selected === '' || detail.dataset.section === selected) {
+      detail.open = true;
+    } else {
+      detail.open = false;
+    }
+  });
+});
+</script>

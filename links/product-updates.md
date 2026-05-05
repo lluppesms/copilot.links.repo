@@ -1,21 +1,26 @@
 ## Product Updates
 
-### Where to find them:
+{% include collapsible-sections.html sections="Where to Find Updates, Notable Changes in v1.119 - May 5, 2026, Notable Changes in v1.118.1 - April 30, 2026, Notable Changes in v1.117 - April 22, 2026" %}
+
+<details data-section="Where to Find Updates">
+<summary><strong>Where to Find Updates</strong></summary>
 
 - VS Code Update Log: <a target="_blank" href="https://code.visualstudio.com/updates/">https://code.visualstudio.com/updates/</a>
 - Copilot Update Log: <a target="_blank" href="https://github.blog/changelog/label/copilot/">https://github.blog/changelog/label/copilot/</a>
 - Copilot CLI Update Log: - <a target="_blank" href="https://github.com/github/copilot-cli/releases">https://github.com/github/copilot-cli/releases</a>
 
----
-### Notable Changes in v1.119 - May 5, 2026
+</details>
+
+<details data-section="Notable Changes in v1.119 - May 5, 2026">
 
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_119">https://code.visualstudio.com/updates/v1_119</a>
 
 #### **Markdown View Toggle**
 Enabled markdown view toggle - Shift-Control-V == toggle source view vs preview mode view
 
----
-### Notable Changes in v1.118.1 - April 30, 2026
+</details>
+
+<details data-section="Notable Changes in v1.118.1 - April 30, 2026">
 
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_118">https://code.visualstudio.com/updates/v1_118</a>
 
@@ -48,9 +53,9 @@ This feature is experimental and requires the   github.copilot.chat.localIndex.e
     
 ![Custom Chat Evaluations](./images/Custom-Chat-Evaluations.png)
 
+</details>
 
----
-### Notable Changes in v1.117 - April 22, 2026
+<details data-section="Notable Changes in v1.117 - April 22, 2026">
  
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_117">https://code.visualstudio.com/updates/v1_117</a>
 
@@ -60,3 +65,5 @@ Bring your own key for Copilot Business and Enterprise
 #### **Incremental rendering of chat responses** (Experimental)
 
 #### **New Agent experience**
+
+</details>
