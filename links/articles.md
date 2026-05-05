@@ -10,7 +10,7 @@
 - <a target="_blank" href="https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals">AGENTS.md outperforms skills in our agent evals</a> Vercel (Jan 2026) - They got different results when putting data in AGENTS.md vs putting in just skills… ?
 - <a target="_blank" href="https://www.elenaverna.com/p/confessions-of-a-millennial-in-tech">Where I'm feeling:  behind...</a> (Apr 6 2026 Blog)
 - <a target="_blank" href="https://opensource.microsoft.com/blog/2026/04/09/how-drasi-used-github-copilot-to-find-documentation-bugs/">How Drasi used GitHub Copilot to find documentation bugs</a> (Microsoft Open Source Blog)
-- <a target="_blank" href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163">The AI Vampire</a> (Steve Yegge Blob - Feb 11, 2026)
+- <a target="_blank" href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163">The AI Vampire</a> (Steve Yegge Blog - Feb 11, 2026)
 
 ### Interesting Podcasts
 - <a target="_blank" href="https://hanselminutes.com/1035/the-ai-vampire-with-gas-towns-steve-yegge">The AI Vampire with Gas Town's Steve Yegge</a> (Scott Hanselman's podcast - Feb 2026)
