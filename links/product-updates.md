@@ -8,7 +8,8 @@
 
 ---
 ### Notable Changes in v1.119 - May 5, 2026
-    Enabled markdown view - Shift-Control-V == toggle source vs view mode
+
+Enabled markdown view toggle - Shift-Control-V == toggle source view vs preview mode view
 
 ---
 ### Notable Changes in v1.118.1 - April 30, 2026
