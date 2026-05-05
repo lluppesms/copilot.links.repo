@@ -3,6 +3,7 @@
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/">GitHub Copilot CLI for Beginners</a> (GitHub Course- April 2026)
 - <a target="_blank" href="https://github.com/features/copilot/cli">Install GHCP CLI</a>
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/">CLI - Interactive vs. Non-Interactive Mode</a> (GitHub Blog Apr 30, 2026)
+- <a target="_blank" href="https://github.com/github/copilot-cli-for-beginners">GitHub Copilot CLI for Beginners</a> (GitHub official course)
 
 ---
 

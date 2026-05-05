@@ -61,7 +61,7 @@ permalink: /memes/
         display.style.display = 'none';
         return;
       }
-      img.src = baseUrl + '/images/' + chosen;
+      img.src = baseUrl + '/memes/' + chosen;
       img.alt = select.options[select.selectedIndex].textContent;
       caption.textContent = select.options[select.selectedIndex].textContent;
       display.style.display = 'block';
