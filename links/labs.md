@@ -9,4 +9,4 @@
 
 - <a target="_blank" href="https://github.com/lluppesms/simple.agent.demo">Build an Agent Demo</a> (Lyle's demo repo)
 - <a target="_blank" href="https://github.com/lluppesms/simple.skill.demo">Build an Skill Demo</a> (Lyle's demo repo)
-- <a target="_blank" href="https://github.com/lluppesms/DadABase.MCP">Build an MCP Server Demo</a> (Lyle's demo repo)
+- <a target="_blank" href="https://github.com/lluppesms/simple.mcp.demo">Build an MCP Server Demo</a> (Lyle's demo repo)
