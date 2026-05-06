@@ -1,13 +1,14 @@
 ## Product Updates
 
-### Where to find them:
+### Where to find release info and updates:
 
 - VS Code Update Log: <a target="_blank" href="https://code.visualstudio.com/updates/">https://code.visualstudio.com/updates/</a>
 - Copilot Update Log: <a target="_blank" href="https://github.blog/changelog/label/copilot/">https://github.blog/changelog/label/copilot/</a>
 - Copilot CLI Update Log: - <a target="_blank" href="https://github.com/github/copilot-cli/releases">https://github.com/github/copilot-cli/releases</a>
+- Copilot SDK Update Log: - <a target="_blank" href="https://github.com/github/copilot-sdk/releases">https://github.com/github/copilot-sdk/releases</a>
 
 ---
-### Notable Changes in v1.119 - May 5, 2026
+### Notable Changes in VS Code v1.119 - May 5, 2026
 
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_119">https://code.visualstudio.com/updates/v1_119</a>
 
@@ -15,7 +16,7 @@
 Enabled markdown view toggle - Shift-Control-V == toggle source view vs preview mode view
 
 ---
-### Notable Changes in v1.118.1 - April 30, 2026
+### Notable Changes in VS Code v1.118.1 - April 30, 2026
 
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_118">https://code.visualstudio.com/updates/v1_118</a>
 
@@ -53,7 +54,12 @@ This feature is experimental and requires the   github.copilot.chat.localIndex.e
 
 
 ---
-### Notable Changes in v1.117 - April 22, 2026
+### Notable Changes in VS Code CLI - April 20, 2026
+ 
+Remote control steering of CLI sessions is now public preview.
+
+---
+### Notable Changes in VS Code v1.117 - April 22, 2026
  
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_117">https://code.visualstudio.com/updates/v1_117</a>
 
