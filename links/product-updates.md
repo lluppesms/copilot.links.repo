@@ -8,6 +8,13 @@
 - Copilot SDK Update Log: - <a target="_blank" href="https://github.com/github/copilot-sdk/releases">https://github.com/github/copilot-sdk/releases</a>
 
 ---
+
+### VS Code - April 2026 Changes Summary
+
+![Custom Chat Evaluations](./images/VSCode-2026-04.png)
+
+---
+
 ### Notable Changes in VS Code v1.119 - May 5, 2026
 
 - Change Log: <a target="_blank" href="https://code.visualstudio.com/updates/v1_119">https://code.visualstudio.com/updates/v1_119</a>
