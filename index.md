@@ -21,6 +21,9 @@ Lyle's curated collection of GitHub Copilot links and resources
 {% include_relative links/product-updates.md %}
 </div>
 
+---
+
+<hr class="section-sep">
 <div class="link-section" markdown="1">
 {% include_relative links/agents.md %}
 </div>
