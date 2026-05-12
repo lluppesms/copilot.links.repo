@@ -16,6 +16,11 @@ Lyle's curated collection of GitHub Copilot links and resources
 
 ---
 
+<hr class="section-sep">
+<div class="link-section" markdown="1">
+{% include_relative links/product-updates.md %}
+</div>
+
 <div class="link-section" markdown="1">
 {% include_relative links/agents.md %}
 </div>
@@ -86,10 +91,6 @@ Lyle's curated collection of GitHub Copilot links and resources
 <hr class="section-sep">
 <div class="link-section" markdown="1">
 {% include_relative links/modernization-skills.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/product-updates.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
