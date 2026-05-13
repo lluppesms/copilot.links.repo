@@ -10,6 +10,7 @@ April Usage Data available to help estimate new usage-based billing impact</a> (
 - <a target="_blank" href="https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises">GH Docs: Usage-based billing for organizations and enterprises</a> (Apr 27, 2026)
 - <a target="_blank" href="https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-usage-based-billing">Preparing your organization for usage-based billing</a> (GitHub Docs)
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/get-started/understanding-copilot-budgeting">Understanding Copilot budgeting</a> (GitHub Docs)
+- <a target="_blank" href="https://learn.github.com/event/bb786fa6-d94c-4dd9-9917-11eee58265ef">GitHub Billing Platform Controls</a> (GitHub Docs)
 
 ### Other Links
 
