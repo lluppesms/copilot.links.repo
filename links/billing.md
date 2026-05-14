@@ -1,7 +1,6 @@
 ## Billing
 
-- <a target="_blank" href="https://github.blog/changelog/2026-05-12-april-reports-are-now-available-to-prepare-for-usage-based-billing/
-April Usage Data available to help estimate new usage-based billing impact</a> (GitHub Blog - May 12, 2026)
+- <a target="_blank" href="https://github.blog/changelog/2026-05-12-april-reports-are-now-available-to-prepare-for-usage-based-billing/">April Usage Data available to help estimate new usage-based billing impact</a> (GitHub Blog - May 12, 2026)
 
 ---
 
