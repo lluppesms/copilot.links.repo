@@ -4,6 +4,7 @@
 - <a target="_blank" href="https://github.com/features/copilot/cli">Install GHCP CLI</a>
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/">CLI - Interactive vs. Non-Interactive Mode</a> (GitHub Blog Apr 30, 2026)
 - <a target="_blank" href="https://github.com/github/copilot-cli-for-beginners">GitHub Copilot CLI for Beginners</a> (GitHub official course)
+- <a target="_blank" href="https://htek.dev/articles/github-copilot-cli-extensions-complete-guide">GitHub Copilot CLI Extensions: The Complete (unofficial) Guide</a>(blog Hector Flores - Microsoft CSA)
 
 ### Videos
 
