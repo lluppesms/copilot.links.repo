@@ -1,6 +1,7 @@
 ## Articles and Blogs
 
 ### Interesting Articles
+- <a target="_blank" href="https://githubnext.com/posts/">GitHub VNext Blog</a>
 - <a target="_blank" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue">Claude just delete my entire production environment!</a> (And who's fault is that...??!)  (April 27, 2026)
 - <a target="_blank" href="https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox">Anthropic Warns That "Reckless" Claude Mythos Escaped a Sandbox Environment During Testing</a> (Futurism Blog: April 2026)
 
