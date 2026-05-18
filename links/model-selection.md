@@ -1,8 +1,7 @@
-## Model Distribution Matrix
+## Model Selection
 
-Maps each agent and skill to the **specific model** best suited for its workload.
-Use this guide when configuring `model:` overrides in agent YAML files or when
-selecting models for skill invocations.
+Use this guide when configuring `model:` overrides in agent YAML files or when selecting models for skill invocations.
+The examples below map each agent and skill to the **specific model** best suited for its workload.
 
 ### Available Models (19 deployed)
 
@@ -39,6 +38,44 @@ selecting models for skill invocations.
 | GPT-5.4 mini | Structured output, cheap | Boilerplate, scaffolding, templates |
 | GPT-5 mini | Fast general purpose | Simple transforms, formatting |
 | GPT-4.1 | Cheapest, fastest | Guardrails, binary checks, labeling |
+
+
+---
+
+#### Fallback Chain Strategy
+
+```text
+Premium:  Opus 4.7 XHigh → Opus 4.7 High → Opus 4.7 → Opus 4.6 → Opus 4.5
+Standard: Sonnet 4.6 → Sonnet 4.5 → Sonnet 4
+Codex:    GPT-5.3-Codex → GPT-5.2-Codex
+Infra:    GPT-5.4 → GPT-5.2
+Fast:     Haiku 4.5 → GPT-5 mini → GPT-4.1
+```
+
+### Selection Heuristics
+
+When choosing a model for a new agent or skill:
+
+1. **Needs deepest reasoning (security, exploit chains)?** → Opus 4.7 XHigh
+2. **Complex architecture or design trade-offs?** → Opus 4.7 High
+3. **Large codebase / huge context needed?** → Opus 4.7 (1M) or Opus 4.6 (1M)
+4. **Cross-domain strategy or regulation?** → GPT-5.5
+5. **Generates code as primary output?** → GPT-5.3-Codex (or 5.2-Codex fallback)
+6. **Produces structured config/YAML/IaC?** → GPT-5.4
+7. **Requires nuanced judgment (reviews, prose)?** → Sonnet 4.6
+8. **High-volume classification/routing?** → Haiku 4.5
+9. **Binary pass/fail, cheapest possible?** → GPT-4.1
+10. **Simple transforms, templates?** → GPT-5.4 mini or GPT-5 mini
+
+### Cost Optimization Notes
+
+- **Batch non-urgent work** on fast-tier models where possible
+- **Use reasoning models sparingly** — only when the task genuinely benefits
+- **Fallback chains**: If Opus times out, retry on Sonnet (graceful degradation)
+- **Cache model outputs** for repeated patterns (e.g., same triage rules)
+- **Monitor token usage** per agent to spot over-provisioned model assignments
+
+---
 
 ### Agent → Model Assignment
 
@@ -103,6 +140,9 @@ selecting models for skill invocations.
 | merge-coordinator | Haiku 4.5 | GPT-5 mini | Status checks, merge sequencing |
 | new-customization | GPT-5.4 mini | GPT-5 mini | Template expansion, scaffolding |
 | self-healing-ci | Haiku 4.5 | GPT-4.1 | Error pattern matching, retry logic |
+
+
+---
 
 ### Skill → Model Assignment
 
@@ -174,35 +214,3 @@ selecting models for skill invocations.
 
 *Note: GPT-5 mini, Sonnet 4, GPT-5.2, Opus 4.5, and Opus 4.6 appear only as fallbacks.*
 
-#### Fallback Chain Strategy
-
-```text
-Premium:  Opus 4.7 XHigh → Opus 4.7 High → Opus 4.7 → Opus 4.6 → Opus 4.5
-Standard: Sonnet 4.6 → Sonnet 4.5 → Sonnet 4
-Codex:    GPT-5.3-Codex → GPT-5.2-Codex
-Infra:    GPT-5.4 → GPT-5.2
-Fast:     Haiku 4.5 → GPT-5 mini → GPT-4.1
-```
-
-### Selection Heuristics
-
-When choosing a model for a new agent or skill:
-
-1. **Needs deepest reasoning (security, exploit chains)?** → Opus 4.7 XHigh
-2. **Complex architecture or design trade-offs?** → Opus 4.7 High
-3. **Large codebase / huge context needed?** → Opus 4.7 (1M) or Opus 4.6 (1M)
-4. **Cross-domain strategy or regulation?** → GPT-5.5
-5. **Generates code as primary output?** → GPT-5.3-Codex (or 5.2-Codex fallback)
-6. **Produces structured config/YAML/IaC?** → GPT-5.4
-7. **Requires nuanced judgment (reviews, prose)?** → Sonnet 4.6
-8. **High-volume classification/routing?** → Haiku 4.5
-9. **Binary pass/fail, cheapest possible?** → GPT-4.1
-10. **Simple transforms, templates?** → GPT-5.4 mini or GPT-5 mini
-
-### Cost Optimization Notes
-
-- **Batch non-urgent work** on fast-tier models where possible
-- **Use reasoning models sparingly** — only when the task genuinely benefits
-- **Fallback chains**: If Opus times out, retry on Sonnet (graceful degradation)
-- **Cache model outputs** for repeated patterns (e.g., same triage rules)
-- **Monitor token usage** per agent to spot over-provisioned model assignments
