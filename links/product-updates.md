@@ -9,6 +9,12 @@
 
 ---
 
+### New App Updates
+- <a target="_blank" href="https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/">GitHub Copilot app is now available in technical preview!</a> (GitHub Blog - May 14, 2026)
+- <a target="_blank" href="https://github.com/github/app/releases">GitHub Copilot app installer</a>
+
+---
+
 ### VS Code - April 2026 Changes
 
 - <a target="_blank" href="https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases/">See full blog for summary of changes in April </a>
