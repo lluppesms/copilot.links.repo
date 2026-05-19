@@ -10,7 +10,9 @@ AI agent teams for any project - built by MS engineer Brady Gaster
 - <a target="_blank" href="https://github.com/bradygaster/squad">Squad: AI agent teams for any project (GitHub)</a> (Source)
 - <a target="_blank" href="https://deepwiki.com/bradygaster/squad/1-overview">Squad: DeepWiki Docs</a>
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/">How Squad runs coordinated AI agents inside your repository</a> (GitHub Blog)
-- <a target="_blank" href="https://www.dotnetrocks.com/details/1994">.Net Rocks! Podcast: Building Software using Squad with Brady Gaster> (March 19, 2026)
+- <a target="_blank" href="https://www.dotnetrocks.com/details/1994">.Net Rocks! Podcast: Building Software using Squad with Brady Gaster</a> (March 19, 2026)
+
+---
 
 ### HVE-Core
 
@@ -18,6 +20,8 @@ A refined collection of instructions, prompts, agents, and skills to start your 
 
 - <a target="_blank" href="https://github.com/microsoft/hve-core">Hypervelocity Engineering components</a> 
 - <a target="_blank" href="https://microsoft.github.io/hve-core/docs/">HVE-Core Documentation</a>
+
+---
 
 ### Git-Ape
 
@@ -27,3 +31,10 @@ An intelligent Azure deployment agent system for GitHub Copilot. Provides guided
 - <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=Git-ApeTeam.git-ape">Install Git-Ape</a> (VS Code Marketplace  Plugin)
 - <a target="_blank" href="https://github.com/azure/git-ape">Git-Ape Source</a> (GitHub Repo)
 
+---
+
+### Apex
+
+Transform Azure platform engineering for IT Pros. Powered by GitHub Copilot and specialized AI agents, APEX converts requirements into architecture diagrams, governance-aligned designs, and deploy-ready Bicep or Terraform templates — with built-in pricing, compliance, and automation. (a repo built by an MS engineer)
+
+- <a target="_blank" href="https://jonathan-vella.github.io/azure-agentic-infraops/">Agentic Platform Engineering eXperience for Azure</a> (Starting page for docs and repo)
