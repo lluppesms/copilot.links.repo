@@ -35,6 +35,6 @@ An intelligent Azure deployment agent system for GitHub Copilot. Provides guided
 
 ### Apex
 
-Transform Azure platform engineering for IT Pros. Powered by GitHub Copilot and specialized AI agents, APEX converts requirements into architecture diagrams, governance-aligned designs, and deploy-ready Bicep or Terraform templates — with built-in pricing, compliance, and automation. (a repo built by an MS engineer)
+Transform Azure platform engineering for IT Pros. Powered by GitHub Copilot and specialized AI agents, APEX converts requirements into architecture diagrams, governance-aligned designs, and deploy-ready Bicep or Terraform templates — with built-in pricing, compliance, and automation. (a fairly complex repo built by an MS engineer)
 
 - <a target="_blank" href="https://jonathan-vella.github.io/azure-agentic-infraops/">Agentic Platform Engineering eXperience for Azure</a> (Starting page for docs and repo)

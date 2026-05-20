@@ -11,3 +11,7 @@
 - YouTube: <a target="_blank" href="https://www.youtube.com/watch?v=CqcqWLv-sDM">You need to try the GitHub Copilot CLI right now!</a> (Burke Holland)
 - YouTube: <a target="_blank" href="https://www.youtube.com/watch?v=tQlNq8bH674">Getting Started with GitHub Copilot CLI and Work IQ</a> (John Savill - March 2026)
 - YouTube: <a target="_blank" href="https://www.youtube.com/watch?v=HcjUnrS41II">How to extend Copilot CLI with custom UI</a> (Steve Sandersen - Apr 23, 2026)
+
+### Short Tips
+
+- YouTube Short (2 min): <a target="_blank" href="https://www.youtube.com/shorts/7VVzIfaXsBo">Copilot CLI - use TWO models with subagent calls</a> (Burke Holland)
