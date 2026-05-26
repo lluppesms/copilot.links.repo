@@ -10,6 +10,12 @@
 
 ---
 
+### Getting Started
+
+- <a target="_blank" href="https://share.articulate.com/pmpueguUReJvPTq-7f_aY#/lessons/K35jvv4-mvv8UjVfOenLrpg845UA413F">Usage Based Billing Worksheet</a> GitHub Learn site/checklist (created by GH employee TJ Corrigan)
+
+---
+
 ### What is my Cost?
 - <a href="/copilot.links.repo/?category=show-me-the-money">How can I see how much this costs???</a>
 
