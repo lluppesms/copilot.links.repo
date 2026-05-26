@@ -144,6 +144,13 @@ Lyle's curated collection of GitHub Copilot links and resources
     }
   });
 
+  function normalizeCategoryName(value) {
+    return (value || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
   function applyFilters() {
     var term = input.value.toLowerCase().trim();
     var category = select.value;
@@ -246,8 +253,13 @@ var sectionName = section.dataset.sectionname || '';
 
     if (requestedCategory) {
       var lower = requestedCategory.toLowerCase();
+      var normalizedRequested = normalizeCategoryName(requestedCategory);
       for (var i = 0; i < select.options.length; i++) {
-        if (select.options[i].value.toLowerCase() === lower) {
+        var optionValue = select.options[i].value;
+        if (
+          optionValue.toLowerCase() === lower ||
+          normalizeCategoryName(optionValue) === normalizedRequested
+        ) {
           select.value = select.options[i].value;
           break;
         }

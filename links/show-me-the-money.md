@@ -1,11 +1,11 @@
 ## Show me the money!
 
-- <a target="_blank" href="https://github.com/devartifex/copilot-cost">See your GitHub Copilot CLI tokens and estimated spend at a glance — right in your terminal.</a>  Add-in for GHCP CLI (- )repo developed by Microsoft CSA Gabriel Mercuri)
+- <a target="_blank" href="https://github.com/devartifex/copilot-cost">See your GitHub Copilot CLI tokens and estimated spend at a glance</a>  Add-in for GHCP CLI (repo developed by Microsoft CSA Gabriel Mercuri)
 
 ### Token Cost
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing">GH Docs: Models and pricing for GitHub Copilot</a> (Apr 27, 2026)
 
-### Efficiency
+### Token Efficiency
 - <a target="_blank" href="https://github.com/aj-enns/token-economy">Token Economy: Optimizing GitHub Copilot Chat & Agents under Usage-Based Billing</a> (Repo of tips by a MS CSA - May 2026)
 - <a target="_blank" href="https://github.registration.goldcast.io/series/84c85b98-c505-4050-8aa0-7386079cf382">GitHub Copilot Token Optimization Workshop</a> (GH Recurring Webinar)
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/managed-grafana/grafana-opentelemetry-app-insights#github-copilot">How to Monitor AI coding agents with Grafana</a> (MS Learn)
