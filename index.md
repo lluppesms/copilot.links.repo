@@ -151,6 +151,24 @@ Lyle's curated collection of GitHub Copilot links and resources
       .replace(/^-+|-+$/g, '');
   }
 
+  function findMatchingCategoryOption(rawValue) {
+    if (!rawValue) return '';
+    var lower = rawValue.toLowerCase();
+    var normalized = normalizeCategoryName(rawValue);
+
+    for (var i = 0; i < select.options.length; i++) {
+      var optionValue = select.options[i].value;
+      if (
+        optionValue.toLowerCase() === lower ||
+        normalizeCategoryName(optionValue) === normalized
+      ) {
+        return optionValue;
+      }
+    }
+
+    return '';
+  }
+
   function applyFilters() {
     var term = input.value.toLowerCase().trim();
     var category = select.value;
@@ -237,33 +255,30 @@ var sectionName = section.dataset.sectionname || '';
   //   #billing           (hash fragment — same as bare key)
   (function applyUrlParams() {
     var params = new URLSearchParams(window.location.search);
+    var matchedCategory = '';
 
     // Resolve requested category: ?category=X wins, then bare ?key, then #hash
     var requestedCategory = params.get('category');
-    if (!requestedCategory) {
+    if (requestedCategory) {
+      matchedCategory = findMatchingCategoryOption(requestedCategory);
+    }
+
+    if (!matchedCategory) {
       params.forEach(function (val, key) {
-        if (!requestedCategory && val === '' && key !== 'search') {
-          requestedCategory = key;
+        if (!matchedCategory && val === '' && key !== 'search') {
+          matchedCategory = findMatchingCategoryOption(key);
         }
       });
     }
-    if (!requestedCategory && window.location.hash) {
-      requestedCategory = decodeURIComponent(window.location.hash.slice(1));
+
+    if (!matchedCategory && window.location.hash) {
+      matchedCategory = findMatchingCategoryOption(
+        decodeURIComponent(window.location.hash.slice(1))
+      );
     }
 
-    if (requestedCategory) {
-      var lower = requestedCategory.toLowerCase();
-      var normalizedRequested = normalizeCategoryName(requestedCategory);
-      for (var i = 0; i < select.options.length; i++) {
-        var optionValue = select.options[i].value;
-        if (
-          optionValue.toLowerCase() === lower ||
-          normalizeCategoryName(optionValue) === normalizedRequested
-        ) {
-          select.value = select.options[i].value;
-          break;
-        }
-      }
+    if (matchedCategory) {
+      select.value = matchedCategory;
     }
 
     // Pre-fill search box: ?search=X
@@ -272,7 +287,7 @@ var sectionName = section.dataset.sectionname || '';
       input.value = requestedSearch;
     }
 
-    if (requestedCategory || requestedSearch) {
+    if (matchedCategory || requestedSearch) {
       applyFilters();
     }
   })();

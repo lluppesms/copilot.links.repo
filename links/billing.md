@@ -11,7 +11,7 @@
 ---
 
 ### What is my Cost?
-- <a target="_blank" href="/copilot.links.repo/?show-me-the-money">How can I see how much this costs???</a>
+- <a href="/copilot.links.repo/?category=show-me-the-money">How can I see how much this costs???</a>
 
 ---
 
