@@ -17,3 +17,6 @@
 ### Interesting...
 - <a target="_blank" href="https://github.com/rtk-ai/rtk/">CLI proxy that reduces LLM token consumption by 60-90% on common dev commands</a> 3rd Party GitHub Repo / Plug-in by rtk-ai 
     - (Note: I haven't verified or tested this yet, but it looks interesting!!!)
+
+- <a target="_blank" href="https://github.com/JuliusBrussee/caveman">Why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</a> 3rd Party GitHub Repo / Plug-in by juliusBrussee
+    - (Note: Caveman few words - shrink token count)
