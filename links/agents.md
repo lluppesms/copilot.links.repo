@@ -12,4 +12,4 @@
 - <a target="_blank" href="https://www.youtube.com/watch?v=JepVi1tBNEE">Agent Skills in VS Code</a> (James Montemagno)  How to build your own agent skill and use it in VS Code
 - <a target="_blank" href="https://www.youtube.com/watch?v=fabAI1OKKww">The complete guide to Agent Skills</a> (Burke Holland)  A comprehensive walkthrough of creating and using agent skills
 - <a target="_blank" href="https://www.youtube.com/watch?v=-BhfcPseWFQ">After This Video, You'll Actually Understand Agent Orchestration</a> (Burke Holland)
-
+- <a target="_blank" href="https://www.youtube.com/watch?v=-BhfcPseWFQ">Ralph loop vs Copilot CLI Autopilot + Fleet mode</a> (Burke Holland)
