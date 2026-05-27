@@ -19,6 +19,6 @@
 3rd Party GitHub Repo / Plug-in by rtk-ai 
     - (Note: I haven't verified or tested this yet, but it looks interesting!!!)
 
-- <a target="_blank" href="https://github.com/JuliusBrussee/caveman">Why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</a><br />
+- <a target="_blank" href="https://github.com/JuliusBrussee/caveman">Why use many token when few token do trick — cut 65% tokens by talking like caveman</a><br />
 3rd Party GitHub Repo / Plug-in by juliusBrussee
     - (Note: Caveman few words - shrink token count)
