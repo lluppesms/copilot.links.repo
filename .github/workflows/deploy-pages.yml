@@ -56,37 +56,7 @@ jobs:
     needs: deploy
     steps:
       - name: Cleanup old workflow runs (keep latest 10)
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            const workflowPath = '.github/workflows/deploy-pages.yml';
-            const keep = 10;
-
-            const workflow = await github.rest.actions.getWorkflow({
-              owner,
-              repo,
-              workflow_id: workflowPath
-            });
-
-            const workflowId = workflow.data.id;
-
-            const runs = await github.paginate(
-              github.rest.actions.listWorkflowRuns,
-              {
-                owner,
-                repo,
-                workflow_id: workflowId,
-                per_page: 100
-              },
-              (response) => response.data.workflow_runs
-            );
-
-            const oldRuns = runs.slice(keep);
-            core.info(`Workflow ID ${workflowId}: found ${runs.length} runs. Deleting ${oldRuns.length} old runs.`);
-
-            for (const run of oldRuns) {
-              await github.rest.actions.deleteWorkflowRun({owner, repo, run_id: run.id});
-              core.info(`Deleted run ${run.id} from ${run.created_at}`);
-            }
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: ./scripts/cleanup-workflow-runs.ps1 -WorkflowPath '.github/workflows/deploy-pages.yml' -Keep 10
