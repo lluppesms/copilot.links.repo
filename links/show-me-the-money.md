@@ -22,6 +22,6 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 - <a target="_blank" href="https://github.com/rtk-ai/rtk/">CLI proxy that reduces LLM token consumption by 60-90% on common dev commands</a><br />
 3rd Party GitHub Repo / Plug-in by rtk-ai 
     - (Note: I haven't verified or tested this yet, but it looks interesting!!!)
-- <a target="_blank" href="https://github.com/JuliusBrussee/caveman">Why use many token when few token do trick — cut 65% tokens by talking like caveman</a><br />
+- <a target="_blank" href="https://github.com/JuliusBrussee/caveman">Why use many token when few do trick - talk like caveman - cut 65%</a><br />
 3rd Party GitHub Repo / Plug-in by juliusBrussee
-    - (Note: Caveman few words - shrink token count)
+    - (Note: Caveman use few words - shrink tokens)
