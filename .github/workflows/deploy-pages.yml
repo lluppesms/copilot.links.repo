@@ -12,7 +12,6 @@ on:
   workflow_dispatch:
 
 permissions:
-  actions: write
   contents: read
   pages: write
   id-token: write
@@ -50,13 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  cleanup:
-    runs-on: ubuntu-latest
-    needs: deploy
-    steps:
-      - name: Cleanup old workflow runs (keep latest 10)
-        shell: pwsh
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: ./scripts/cleanup-workflow-runs.ps1 -WorkflowPath '.github/workflows/deploy-pages.yml' -Keep 10
