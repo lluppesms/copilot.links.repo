@@ -15,6 +15,7 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/managed-grafana/grafana-opentelemetry-app-insights#github-copilot">How to Monitor AI coding agents with Grafana</a> (MS Learn)
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/">Improving token efficiency in GitHub Agentic Workflows</a> (GitHub Blog May 7, 2026)
     > The main focus of the article is the "agentic workflow" and how can they reduce token usage there. One of the options discussed is to limit the number of MCP servers because all that info is put into the system prompt every time, consuming tokens parsing that prompt every time, so they replaced some of those with straight CLI calls. Another topic was how not all tokens are the same because of the cost per model, so they use an "Effective Tokens" formula to normalize consumption. If you see 1M tokens consumed, it's important to know which model used those tokens because Opus costs 25x more than Haiku.
+- <a target="_blank" href="https://www.youtube.com/watch?v=u57EnkQaUTY">What is Prompt Caching? Optimize LLM Latency with AI Transformers</a> (IBM YouTube Channel - Feb 2026)
 
 ---
 
