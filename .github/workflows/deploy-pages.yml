@@ -61,16 +61,30 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const workflow_id = 'deploy-pages.yml';
+            const workflowPath = '.github/workflows/deploy-pages.yml';
             const keep = 10;
 
+            const workflow = await github.rest.actions.getWorkflow({
+              owner,
+              repo,
+              workflow_id: workflowPath
+            });
+
+            const workflowId = workflow.data.id;
+
             const runs = await github.paginate(
-              github.rest.actions.listWorkflowRuns, {owner, repo, workflow_id, per_page: 100},
+              github.rest.actions.listWorkflowRuns,
+              {
+                owner,
+                repo,
+                workflow_id: workflowId,
+                per_page: 100
+              },
               (response) => response.data.workflow_runs
             );
 
             const oldRuns = runs.slice(keep);
-            core.info(`Found ${runs.length} runs. Deleting ${oldRuns.length} old runs.`);
+            core.info(`Workflow ID ${workflowId}: found ${runs.length} runs. Deleting ${oldRuns.length} old runs.`);
 
             for (const run of oldRuns) {
               await github.rest.actions.deleteWorkflowRun({owner, repo, run_id: run.id});
