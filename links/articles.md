@@ -5,6 +5,7 @@
 
 ### How it works
 - <a target="_blank" href="https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode">The Coding Harness Behind GitHub Copilot in VS Code</a>  (VS Code Blog - May 2026)
+- <a target="_blank" href="https://magazine.sebastianraschka.com/p/components-of-a-coding-agent">Components of A Coding Agent</a> Explaination of how Coding Agents work (3rd party blog)
 
 ### Best Practices
 - <a target="_blank" href="https://code.visualstudio.com/blogs/2026/03/13/how-VS-Code-Builds-with-AI">How VS Code Team Builds with AI</a>  (VS Code Blog - March 2026)
@@ -25,9 +26,9 @@
 
 
 ### Articles - Techniques
-- <a target="_blank" href="https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals">AGENTS.md outperforms skills in our agent evals</a> Vercel (Jan 2026) - They got different results when putting data in AGENTS.md vs putting in just skills… ?
 - <a target="_blank" href="https://opensource.microsoft.com/blog/2026/04/09/how-drasi-used-github-copilot-to-find-documentation-bugs/">How Drasi used GitHub Copilot to find documentation bugs</a> (Microsoft Open Source Blog)
 - <a target="_blank" href="https://githubnext.com/posts/agents-are-power-tools/">Agents are power tools</A> (GitHub vNext Blog - May 2026)
+- <a target="_blank" href="https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals">AGENTS.md outperforms skills in our agent evals</a> (Vercel Jan 2026) - They got different results when putting data in AGENTS.md vs putting in just skills… ?
 
 ### Interesting Podcasts
 - <a target="_blank" href="https://hanselminutes.com/1035/the-ai-vampire-with-gas-towns-steve-yegge">The AI Vampire with Gas Town's Steve Yegge</a> (Scott Hanselman's podcast - Feb 2026)
