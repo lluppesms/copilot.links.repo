@@ -1,4 +1,4 @@
-## Show me the money!
+## Tokens
 
 ### Token Costs
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing">Models and model pricing for GitHub Copilot</a> (GitHub Docs April, 2026) 
