@@ -5,9 +5,16 @@
 - <a target="_blank" href="https://owasp.org/www-project-mcp-top-10/">OWASP MCP Top 10</a>
 - <a target="_blank" href="https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=visualstudio">Using MCP Servers in Visual Studio</a>
 - <a target="_blank" href="https://code.visualstudio.com/api/extension-guides/ai/mcp">MCP developer guide</a> (VS Code)
+- <a target="_blank" href="https://microsoft.github.io/mcp-azure-security-guide/">OWASP MCP Top 10 Security Guidance for Azure</a> (MS DOcs)
+- <a target="_blank" href="https://owasp.org/www-project-mcp-top-10/">OWASP MCP Top 10</a> (OWASP)
 
 ### Labs
-- <a target="_blank" href="https://github.com/ms-mfg-community/day-in-the-life-copilot-lab/blob/main/labs/lab05.md">MCP Hands-On Lab</a> (Cody's Lab)
+- <a target="_blank" href="https://github.com/ms-mfg-community/day-in-the-life-copilot-lab/blob/main/labs/lab05.md">MCP Hands-On Lab</a> 
+    > Cody's Lab on using MCP servers
+- <a target="_blank" href="https://github.com/lluppesms/simple.mcp.demo">Simple MCP Server Lab</a> 
+    > Lyle's Lab on building a very simple MCP server using C#
+- <a target="_blank" href="https://azure-samples.github.io/sherpa/">MCP Security Summit Workshop</a>
+    > Great hands-on workshop that walks you through how to secure MCP Servers in Azure using APIM, defensive postures, monitoring, etc.
 
 ### MCP Management
 - <a target="_blank" href="https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-mcp-usage">Managing MCP usage in your company</a> (GitHub Docs)
