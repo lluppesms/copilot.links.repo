@@ -1,7 +1,7 @@
 ## Billing
 
 ### Usage Based Billing is here!
-- <a target="_blank" href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/">Announcement: GitHub Copilot usage-based billing is live!</a> (coming June 1, 2026)
+- <a target="_blank" href="https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/">Announcement: GitHub Copilot usage-based billing is live!</a> (GitHub BLog - June 1, 2026)
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing">GitHub Copilot Billing Docs</a>
 - <a target="_blank" href="https://learn.github.com/courses/gitHubusagebasedbillingmodule">Learn about Usage-Based Billing: GitHub Billing Platform Controls</a> (GitHub in-depth course)
 
