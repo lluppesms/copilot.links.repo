@@ -11,6 +11,9 @@
   - <a target="_blank" href="https://learn.microsoft.com/en-us/training/modules/use-github-copilot-cloud-operations/">Use GitHub Copilot for cloud operations</a>
   - <a target="_blank" href="https://learn.microsoft.com/en-us/training/modules/transition-traditional-ops-agent-automation/">Transition from traditional ops to agentic DevOps workflows</a>
 
+- <a target="_blank" href="https://build.microsoft.com/en-US/sessions/BRK202">Azure DevOps meets GitHub, the path to AI powered SDLC</a> (Video - MS Build 2026)
+  > Dave Burniseon and Dan Hellem - the most knowledgable people I know on this topic...!
+
 
 ### MCP
 
