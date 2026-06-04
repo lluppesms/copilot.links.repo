@@ -3,8 +3,12 @@
 ### Build 2026 News
 
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/azure-devops-and-github-journeying-into-the-ai-era/">Azure DevOps and GitHub: Journeying into the AI Era</a> (MS Blog - June 2, 2026)
-- <a target="_blank" href="https://build.microsoft.com/en-US/sessions/BRK202">Azure DevOps meets GitHub, the path to AI powered SDLC</a> (Video - MS Build 2026)
-  > Dave Burniseon and Dan Hellem - the most knowledgable people I know on this topic...!
+- <a target="_blank" href="https://build.microsoft.com/en-US/sessions/BRK202">Azure DevOps meets GitHub, the path to AI powered SDLC</a> (Video - MS Build 2026 Breakout)
+
+  > Presented by Dave Burniseon and Dan Hellem - the most knowledgable people I know on this topic...!
+
+    > <a target="_blank" href="https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc">GitHub Repo for Build Breakout Session</a>
+
 
 ### MCP
 
