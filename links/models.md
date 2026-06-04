@@ -11,3 +11,12 @@
 ### News
 
 - <a target="_blank" href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">Building a hill-climbing machine: Launching seven new MAI models</a> (Microsoft Build 2026 Announcement)
+
+    - <a target="_blank" href="https://microsoft.ai/news/introducingmai-code-1-flash/">Introducing MAI-Code-1-Flash</a>
+
+---
+
+### Articles
+
+- <a target="_blank" href="https://tomtunguz.com/tokens-per-result">Intelligence Per Dollar</a> (3rd party blog - Tomasz Tunguz)
+- <a target="_blank" href="https://artificialanalysis.ai/">Independent analysis of AI</a> (Great model comparison website)
