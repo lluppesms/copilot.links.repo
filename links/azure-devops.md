@@ -9,6 +9,13 @@
 
     > <a target="_blank" href="https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc">GitHub Repo for Build Breakout Session</a>
 
+- <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/release-notes/features-timeline">Azure DevOps Roadmap
+</a>
+
+### Migrations
+
+- <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/repos/enterprise-live-migrations/overview?view=azure-devops">Enterprise Live Migrations</a> (MS Learn -- Public Preview June 2026)
+
 
 ### MCP
 
