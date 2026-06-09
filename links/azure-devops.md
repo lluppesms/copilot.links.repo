@@ -15,7 +15,7 @@
 ### Migrations
 
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/repos/enterprise-live-migrations/overview?view=azure-devops">Enterprise Live Migrations</a> (MS Learn -- Public Preview June 2026)
-
+- <a target="_blank" href="https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/">How Microsoft is migrating repositories to GitHub</a> (MS Dev Blog - June 2026)
 
 ### MCP
 
