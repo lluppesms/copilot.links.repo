@@ -1,0 +1,1 @@
+.\scripts\cleanup-old-workflow-runs.ps1 deploy-pages.yml
