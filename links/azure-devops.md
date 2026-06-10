@@ -12,10 +12,14 @@
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/release-notes/features-timeline">Azure DevOps Roadmap
 </a>
 
-### Migrations
+### Migrating to GitHub
 
-- <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/repos/enterprise-live-migrations/overview?view=azure-devops">Enterprise Live Migrations</a> (MS Learn -- Public Preview June 2026)
+- <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/repos/enterprise-live-migrations/overview?view=azure-devops">Enterprise Live Migrations</a> (New feature in Public Preview June 2026)
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/">How Microsoft is migrating repositories to GitHub</a> (MS Dev Blog - June 2026)
+- <a target="_blank" href="https://docs.github.com/en/migrations/ado">Migrating from Azure DevOps to GitHub</a> (GitHub Docs)
+- <a target="_blank" href="https://devblogs.microsoft.com/all-things-azure/azure-devops-to-github-migration-playbook-unlocking-agentic-devops/">Azure DevOps to GitHub Migration Playbook: Unlocking Agentic DevOps</a> (Microsoft Dev Blogs)
+- <a target="_blank" href="https://wellarchitected.github.com/library/scenarios/migrations/azure-devops-migration-guide/">Azure DevOps to GitHub Enterprise Migration Guide</a>  (GitHub Well-Architected Guide)
+- <a target="_blank" href="https://adamtheautomator.com/migrate-azure-devops-github-enterprise/">Migrating Azure DevOps to GitHub Enterprise: The ROI Case</a> (Adam the Automator - 3rd Party Blog)
 
 ### MCP
 
