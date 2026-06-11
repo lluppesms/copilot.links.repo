@@ -15,18 +15,6 @@
 
 ---
 
-### VS Code - April 2026 Change Summary
+### VS Code Updates
 
-- <a target="_blank" href="https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases/">See full blog for summary of changes in April </a>
-
-![Custom Chat Evaluations](./images/VSCode-2026-04.png)
-
-#### Version Info
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_122">v1.122</a>
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_121">v1.121</a>
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_120">v1.120</a>
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_119">v1.119</a>
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_118">v1.118</a>
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_117">v1.117</a>
-- <a target="_blank" href="https://code.visualstudio.com/updates/v1_116">v1.116</a>
-
+- <a target="_blank" href="https://code.visualstudio.com/updates/">Latest Version Info</a>
