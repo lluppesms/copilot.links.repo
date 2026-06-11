@@ -28,5 +28,5 @@ Instructions for setting up a full GitHub EMU account, creating Enterprise Teams
 
 - <a target="_blank" href="https://devblogs.microsoft.com/all-things-azure/tutorial-videos-setting-up-github-copilot-for-your-company/">Tutorial Videos: Setting up GitHub Copilot for your Company | All things Azure</a>  
     > Great short video series covering the entire process
-- <a target="_blank" href="https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-tutorial#prerequisites">Configure a GitHub enterprise with Enterprise Managed Users for SAML Single sign-on with Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn</a>
-- <a target="_blank" href="https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-provisioning-tutorial">Configure GitHub Enterprise Managed User for automatic user provisioning with Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn</a>
+- <a target="_blank" href="https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-tutorial#prerequisites">Configure a GitHub enterprise with Enterprise Managed Users for SAML Single sign-on with Microsoft Entra ID</a> (Microsoft Learn)
+- <a target="_blank" href="https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-provisioning-tutorial">Configure GitHub Enterprise Managed User for automatic user provisioning with Microsoft Entra ID</a> (Microsoft Learn)
