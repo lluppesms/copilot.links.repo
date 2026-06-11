@@ -11,6 +11,10 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/accelerate-usage/improve-agent-quality-and-token-optimization">Improve agent quality and token optimization</a> (GitHub Support Article)
 - <a target="_blank" href="https://github.registration.goldcast.io/series/84c85b98-c505-4050-8aa0-7386079cf382">GitHub Copilot Token Optimization Workshop</a> (GH Recurring Webinar)
+    > Note: there does not seem to be any upcoming sessions as of June 11, 2026.
+    > However - you may be able to access this <a target="_blank" href="https://github.ondemand.goldcast.io/on-demand/bc6d09d4-04a5-4d16-9251-e0030d2b1d4b">previously recorded session</a>
+
+
 - <a target="_blank" href="https://github.com/aj-enns/token-economy">Token Economy: Optimizing GitHub Copilot Chat & Agents under Usage-Based Billing</a><br />(Repo full of tips by a MS CSA - May 2026)
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/managed-grafana/grafana-opentelemetry-app-insights#github-copilot">How to Monitor AI coding agents with Grafana</a> (MS Learn)
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/">Improving token efficiency in GitHub Agentic Workflows</a> (GitHub Blog May 7, 2026)
