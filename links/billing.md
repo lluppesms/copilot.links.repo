@@ -26,6 +26,7 @@
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/get-started/understanding-copilot-budgeting">Understanding Copilot budgeting</a> (GitHub Docs)
 - <a target="_blank" href="https://learn.github.com/event/bb786fa6-d94c-4dd9-9917-11eee58265ef">GitHub Billing Platform Controls</a> (GitHub Docs)
 - <a target="_blank" href="https://wellarchitected.github.com/library/governance/recommendations/managing-ai-credits/">Managing AI credits</a> (GitHub Well-Architected Support Article)
+- <a target="_blank" href="https://github.com/colinbeales/gh-ulb">gh-ulb — A GitHub CLI Extension for setting GHCP User-Level Budgets</a> (GH CLI Add-in)
 
 ---
 
