@@ -14,6 +14,11 @@
 
     - <a target="_blank" href="https://microsoft.ai/news/introducingmai-code-1-flash/">Introducing MAI-Code-1-Flash</a>
 
+#### Anthropic
+
+- June 9: <a target="_blank" href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Mythos/Fable is released</a>
+- June 12: <a target="_blank" href="https://www.anthropic.com/news/fable-mythos-access">Claude Mythos/Fable is blocked</a>
+
 ---
 
 ### Articles
