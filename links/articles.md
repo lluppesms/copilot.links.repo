@@ -17,6 +17,9 @@
 - <a target="_blank" href="https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox">Anthropic Warns That "Reckless" Claude Mythos Escaped a Sandbox Environment During Testing</a> (Futurism Blog: April 2026)
 - <a target="_blank" href="https://www.makeuseof.com/someone-left-claude-code-running-overnight-and-it-cost-6000/">Someone left Claude Code running overnight, and it cost $6,000</a> (Make Use Of Blog - May 2026)
 
+### Articles - Industry Trends
+- <a target="_blank" href="https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch">Tokenomics is the new headcount</a> Jared Spataro Blob (Microsoft CMO of AI@Work)
+
 ### Articles - Our Careers
 - <a target="_blank" href="https://dl.acm.org/doi/10.1145/3779312">Redefining the Software Engineering Profession for AI</a> (Mark Russinovich & Scott Hanselman)
 - <a target="_blank" href="https://medium.com/agoda-engineering/from-implementers-to-solution-architects-250a95087d75">From Implementers to Solution Architects</a> (Medium - Feb 2026 - good insights on how our career is changing)
