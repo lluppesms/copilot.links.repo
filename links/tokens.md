@@ -4,6 +4,7 @@
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing">Models and model pricing for GitHub Copilot</a> (GitHub Docs April, 2026) 
 - <a target="_blank" href="https://github.com/devartifex/copilot-cost">See your GitHub Copilot CLI tokens and estimated spend at a glance</a><br />
 Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel Mercuri)
+- <a target="_blank" href="https://white-cliff-095e8700f.7.azurestaticapps.net/ubb-aic-sizing-guide.html">How to Size AI Credit Budgets per User</a>
 
 ---
 
