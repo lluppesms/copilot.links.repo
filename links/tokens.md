@@ -13,8 +13,6 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/accelerate-usage/improve-agent-quality-and-token-optimization">Improve agent quality and token optimization</a> (GitHub Support Article)
 - <a target="_blank" href="https://learn.github.com/event/390d8d96-a2ba-4d80-aa8d-9f68b6bfaa3b">GitHub Copilot Token Optimization Workshop</a> (GH Recurring Webinar)
     > Note: You may be able to access this <a target="_blank" href="https://github.ondemand.goldcast.io/on-demand/bc6d09d4-04a5-4d16-9251-e0030d2b1d4b">previously recorded session</a>
-
-
 - <a target="_blank" href="https://github.com/aj-enns/token-economy">Token Economy: Optimizing GitHub Copilot Chat & Agents under Usage-Based Billing</a><br />(Repo full of tips by a MS CSA - May 2026)
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/managed-grafana/grafana-opentelemetry-app-insights#github-copilot">How to Monitor AI coding agents with Grafana</a> (MS Learn)
 - <a target="_blank" href="https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/">Improving token efficiency in GitHub Agentic Workflows</a> (GitHub Blog May 7, 2026)
@@ -23,7 +21,16 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 
 ---
 
-### Interesting...
+### TokenMaximizing -> TokenMinimizing
+- <a target="_blank" href="https://tech.yahoo.com/ai/articles/tokenmaxxing-know-ai-status-game-034313705.html">Tokenmaxxing: What to know about the AI status game</a> (March 2026)
+- <a target="_blank" href="https://www.linkedin.com/pulse/tokenmaxxing-silicon-valleys-dumbest-new-status-symbol-rajeev-soni-8ip6c/">Tokenmaxxing: Silicon Valley's Dumbest New Status Symbol</a> (March 2026)
+<br /><br />
+- <a target="_blank" href="https://thenextweb.com/news/tokenminimizing-companies-cap-employee-ai-spending">The tokenmaxxing era is over. Now companies are ‘tokenminimizing’</a> (June 2026)
+- <a target="_blank" href="https://www.linkedin.com/pulse/how-att-handled-27-billion-daily-tokens-cut-costs-90-redefined-muniz-g0fbc/">How AT&T Handled 27 Billion Daily Tokens, Cut Costs by 90%, and Redefined AI Governance</a> Some great guidelines
+
+---
+
+### Interesting Ideas...
 - <a target="_blank" href="https://github.com/rtk-ai/rtk/">CLI proxy that reduces LLM token consumption by 60-90% on common dev commands</a><br />
 3rd Party GitHub Repo / Plug-in by rtk-ai 
     - (Note: I haven't verified or tested this yet, but it looks interesting!!!)
