@@ -13,6 +13,7 @@
 
 - <a target="_blank" href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/">Building a hill-climbing machine: Launching seven new MAI models</a> (Microsoft Build 2026 Announcement)
     - <a target="_blank" href="https://microsoft.ai/news/introducingmai-code-1-flash/">Introducing MAI-Code-1-Flash</a>
+- <a target="_blank" href="https://code.visualstudio.com/blogs/2026/06/18/byok-vscode">Use your own language model key (BYOK) in VS Code</a> (MS Blog - June 18, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2025-11-20-enterprise-bring-your-own-key-byok-for-github-copilot-is-now-in-public-preview/">Enterprise bring your own key (BYOK) for GitHub Copilot is now in public preview - GitHub Changelog</a> (Nov 20, 2025)
 
 ---
