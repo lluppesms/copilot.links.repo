@@ -6,7 +6,9 @@
 - <a target="_blank" href="https://build.microsoft.com/en-US/sessions/BRK202">Azure DevOps meets GitHub, the path to AI powered SDLC</a> (Video - MS Build 2026 Breakout)
   > Presented by Dave Burniseon and Dan Hellem - the most knowledgable people I know on this topic...!  <br />See also - <a target="_blank" href="https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc">GitHub Repo for this session</a>
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/">Copilot Code Reviews for Azure Repos</a> (Technical Preview Feature - June 2026)
-- <a target="_blank" href="https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/">Copilot Autofix for GitHub Advanced Security for Azure DevOps</a> (Technical Preview Feature - June 2026)
+- <a target="_blank" href="https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/">Copilot Autofix for GitHub Advanced Security for Azure DevOps - Blog</a> (Technical Preview Feature - June 2026)
+- <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/repos/security/github-advanced-security-code-scanning-autofix?view=azure-devops">Copilot Autofix for Code Scanning - Documentation</a> (Technical Preview Feature - June 2026)
+
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/release-notes/features-timeline">Azure DevOps Roadmap
 </a>
 - <a target="_blank" href="https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4uuOXdlJYdDuxDhNcaqlVBUM1U4WkhEWURVVDRaMFMyN0VKU0lLRjlQVy4u">June 2026 Technical Preview Signup Link</a>
