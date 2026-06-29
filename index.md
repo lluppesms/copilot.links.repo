@@ -16,6 +16,8 @@ Lyle's curated collection of GitHub Copilot links and resources
 
 ---
 
+Introducing the <a target="_blank" href="https://github.com/microsoft/AI-Engineering-Coach">AI Engineer Coach</a>! (Dashboard and Analyst)
+
 <hr class="section-sep">
 <div class="link-section" markdown="1">
 {% include_relative links/product-updates.md %}
