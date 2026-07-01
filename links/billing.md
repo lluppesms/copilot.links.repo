@@ -1,5 +1,11 @@
 ## Billing
 
+### Recent News
+- <a target="_blank" href="https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers/">Per-user AI credit budgets available for cost centers</a> (GitHub Blog - June 30, 2026)
+- <a target="_blank" href="https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers/">Cost centers now support enterprise teams</a> (GitHub Blog - June 25, 2026)
+
+---
+
 ### Usage Based Billing is here!
 - <a target="_blank" href="https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/">Announcement: GitHub Copilot usage-based billing is live!</a> (GitHub Blog - June 1, 2026)
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing">GitHub Copilot Billing Docs</a>
@@ -10,6 +16,8 @@
 ### Getting Started Checklist
 
 - <a target="_blank" href="https://share.articulate.com/pmpueguUReJvPTq-7f_aY#/lessons/K35jvv4-mvv8UjVfOenLrpg845UA413F">Usage Based Billing Worksheet</a> GitHub Learn site/checklist (created by GH employee TJ Corrigan in May 2026)
+
+---
 
 ### Original Announcement - April 2026
 
