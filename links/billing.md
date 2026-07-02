@@ -3,6 +3,7 @@
 ### Recent News
 - <a target="_blank" href="https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers/">Per-user AI credit budgets available for cost centers</a> (GitHub Blog - June 30, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers/">Cost centers now support enterprise teams</a> (GitHub Blog - June 25, 2026)
+    > NOTE: As of July 2, 2026 -- Usage caps for cost centers is available in the API only at this point -- UI will likely be available mid to late July.
 
 ---
 
