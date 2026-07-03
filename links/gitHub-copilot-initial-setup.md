@@ -21,7 +21,6 @@ Instructions for setting up a full GitHub EMU account, creating Enterprise Teams
 - <a target="_blank" href="https://www.youtube.com/watch?v=In_bCzuCZ6o">Assign GitHub Copilot Licenses</a> (Video)
 
 
-
 ---
 
 ### Other Reference Links:
@@ -30,3 +29,12 @@ Instructions for setting up a full GitHub EMU account, creating Enterprise Teams
     > Great short video series covering the entire process
 - <a target="_blank" href="https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-tutorial#prerequisites">Configure a GitHub enterprise with Enterprise Managed Users for SAML Single sign-on with Microsoft Entra ID</a> (Microsoft Learn)
 - <a target="_blank" href="https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-provisioning-tutorial">Configure GitHub Enterprise Managed User for automatic user provisioning with Microsoft Entra ID</a> (Microsoft Learn)
+
+---
+
+### Tips:
+
+Two new features (July 2026) for Copilot Enterprise admins to apply even more control where needed:
+
+- <a target="_blank" href="https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available/">managed-settings.json</a> This lets the enterprise centrally define governance and policy for Copilot across the org — managed as code, in one place.
+- <a target="_blank" href="https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection/">Enterprises can now default to Auto model selection</a> Admins can set model to auto in the enterprise managed-settings.json to make Copilot's auto model selection the default for new conversations.

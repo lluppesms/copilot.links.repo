@@ -3,7 +3,11 @@
 ### Recent News
 - <a target="_blank" href="https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers/">Per-user AI credit budgets available for cost centers</a> (GitHub Blog - June 30, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers/">Cost centers now support enterprise teams</a> (GitHub Blog - June 25, 2026)
-    > NOTE: As of July 2, 2026 -- Usage caps for cost centers is available in the API only at this point -- UI will likely be available mid to late July.
+- <a target="_blank" href="https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps/">Included usage caps for cost centers: Helps admins limit how much of the shared enterprise AI Credit pool a cost center can draw for improved governance.</a> (GitHub Blog - July 2, 2026)
+
+    > **NOTE:** As of July 2, 2026 -- Usage caps for cost centers is available in the API only at this point -- UI will likely be available mid to late July.
+
+    > **TIP:**: Cost center AI credit pools do not reserve credits per user, they limit a cost center’s draw from the shared enterprise AI Credit pool based on attributed licenses. This feature works best when every licensed user is in a cost center, and should ideally be enabled at the beginning of the month since changes only apply going forward.
 
 ---
 
