@@ -6,6 +6,7 @@
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing">Models and pricing for GitHub Copilot</a> (GitHub Docs)
 - <a target="_blank" href="https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/fallback-and-lts-models">Base and long-term support (LTS) models</a> (GitHub docs)
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirements">Microsoft Foundry Models - Lifecycle and Support Policy</a>
+- <a target="_blank" href="https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule">Microsoft Foundry Model Retirement Schedule</a>
 
 ---
 
