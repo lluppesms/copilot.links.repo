@@ -21,6 +21,8 @@
 - <a target="_blank" href="https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch">Tokenomics is the new headcount</a> Jared Spataro Blog (Microsoft CMO of AI@Work)
 
 ### Articles - Our Careers
+- <a target="_blank" href="https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026">How tech workers are feeling in 2026: a workforce splitting in two</a> (July 2026 blog summarizing a survey of 5,920 tech professionals)
+    >TL/DR: One half feels amplified by AI—more capable, more confident, more excited than they’ve been in their entire career. The other half feels shaken by it—less sure of their value and whether there’s still a place for them. The workforce is bifurcating into two realities.
 - <a target="_blank" href="https://dl.acm.org/doi/10.1145/3779312">Redefining the Software Engineering Profession for AI</a> (Mark Russinovich & Scott Hanselman)
 - <a target="_blank" href="https://medium.com/agoda-engineering/from-implementers-to-solution-architects-250a95087d75">From Implementers to Solution Architects</a> (Medium - Feb 2026 - good insights on how our career is changing)
 - <a target="_blank" href="https://www.elenaverna.com/p/confessions-of-a-millennial-in-tech">Where I'm feeling:  behind...</a> (April 2026 Blog)
