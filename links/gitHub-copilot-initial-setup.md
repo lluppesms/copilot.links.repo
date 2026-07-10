@@ -32,6 +32,13 @@ Instructions for setting up a full GitHub EMU account, creating Enterprise Teams
 
 ---
 
+### Enterprise Management
+
+- <a target="_blank" href="https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli/">Deploy managed Copilot settings via MDM in VS Code and CLI</a> (GitHub Change Log - July 8, 2026)
+    > Note: Some of the settings let you disable Bypass Permissions and set allowed marketplaces
+
+---
+
 ### Tips:
 
 Two new features (July 2026) for Copilot Enterprise admins to apply even more control where needed:
