@@ -1,6 +1,7 @@
 ## Billing
 
 ### Recent News
+- <a target="_blank" href="https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk/">Set AI credit session limits in Copilot CLI and SDK</a> (GitHub Blog - July 1, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers/">Per-user AI credit budgets available for cost centers</a> (GitHub Blog - June 30, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers/">Cost centers now support enterprise teams</a> (GitHub Blog - June 25, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps/">Included usage caps for cost centers: Helps admins limit how much of the shared enterprise AI Credit pool a cost center can draw for improved governance.</a> (GitHub Blog - July 2, 2026)
