@@ -1,10 +1,18 @@
 ## Agents
 
+
+
+
 - <a target="_blank" href="https://code.visualstudio.com/docs/copilot/agents/overview">Using Agents in VS Code</a>
 - <a target="_blank" href="https://code.visualstudio.com/docs/copilot/chat/chat-debug-view">Agent Debug Logs</a>
 - <a target="_blank" href="https://agents.md/">AGENTS.md</a> The generic general guide to creating agents.
 - <a target="_blank" href="https://code.visualstudio.com/docs/copilot/agents/third-party-agents"> Enabling 3rd Party Agents in VS Code</a> How can you enable 3rd party agents like Claude Code in VS Code?
 - <a target="_blank" href="https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals">AGENTS.md outperforms skills in our agent evals - Vercel</a>  (Jan 2026) They got different results when putting data in AGENTS.md vs putting in just skills...?
+- <a target="_blank" href="https://learn.github.com/well-architected/governance/recommendations/governing-agents">Governing agents in GitHub Enterprise</a> (GitHub Docs)
+
+### Blogs and Articles
+
+- <a target="_blank" href="https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/">Validating agentic behavior when “correct” isn’t deterministic</a> (GitHub Blob)
 
 ### YouTube Videos
 
