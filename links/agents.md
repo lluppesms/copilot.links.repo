@@ -12,7 +12,7 @@
 
 ### Blogs and Articles
 
-- <a target="_blank" href="https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/">Validating agentic behavior when “correct” isn’t deterministic</a> (GitHub Blob)
+- <a target="_blank" href="https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/">Validating agentic behavior when “correct” isn’t deterministic</a> (GitHub Blog)
 
 ### YouTube Videos
 
