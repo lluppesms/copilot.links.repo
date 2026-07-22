@@ -1,6 +1,7 @@
 ## Billing
 
 ### Recent News
+- <a target="_blank" href="https://techcommunity.microsoft.com/blog/azurearchitectureblog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/4534171">Optimizing GitHub Copilot Cost in the Usage-Based Billing Era</a> (MS Blog - July 7, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk/">Set AI credit session limits in Copilot CLI and SDK</a> (GitHub Blog - July 1, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers/">Per-user AI credit budgets available for cost centers</a> (GitHub Blog - June 30, 2026)
 - <a target="_blank" href="https://github.blog/changelog/2026-06-25-assign-enterprise-teams-to-cost-centers/">Cost centers now support enterprise teams</a> (GitHub Blog - June 25, 2026)
