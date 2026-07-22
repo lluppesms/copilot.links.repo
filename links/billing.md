@@ -48,24 +48,26 @@
 ### What is my Cost?
 - <a href="/copilot.links.repo/?category=tokens">How can I see how much this costs???</a>  (More links about tokens and optimization)
 
-### Model Pricing Snapshot (TSV)
+### Model Pricing Snapshot (as of July 21, 2026)
 
-```tsv
-Model	Category	Input	Cached Input	Cached write	Output
-GPT-5 mini	Lightweight	$0.25	$0.025		$2.00
-GPT-5.3-Codex	Powerful	$1.75	$0.175		$14.00
-GPT-5.5	Powerful	$5.00	$0.50		$30.00
-Claude Haiku 4.5	Versatile	$1.00	$0.10	$1.25	$5.00
-Claude Sonnet 4.6	Versatile	$3.00	$0.30	$3.75	$15.00
-Claude Opus 4.6	Powerful	$5.00	$0.50	$6.25	$25.00
-Gemini 2.5 Pro	Powerful	$1.25	$0.125		$10.00
-Gemini 3.5 Flash	Lightweight	$1.50	$0.15		$9.00
-Raptor mini	Versatile	$0.25	$0.025		$2.00
-MAI-Code-1- Flash	Lightweight	$0.75	$0.075		$4.50
-Kimi K2.7 Code	Versatile	$0.95	$0.19		$4.00
-```
+| Model | Category | Input | Cached Input | Cached write | Output |
+| --- | --- | --- | --- | --- | --- |
+| GPT-5.6 Sol | Powerful | $5.00 | $0.50 |  | $30.00 |
+| GPT-5.5 | Powerful | $5.00 | $0.50 |  | $30.00 |
+| Claude Opus 4.6 | Powerful | $5.00 | $0.50 | $6.25 | $25.00 |
+| GPT-5.6 Terra | Versatile | $2.50 | $0.25 |  | $15.00 |
+| Claude Sonnet 4.6 | Versatile | $3.00 | $0.30 | $3.75 | $15.00 |
+| GPT-5.3-Codex | Powerful | $1.75 | $0.175 |  | $14.00 |
+| Gemini 2.5 Pro | Powerful | $1.25 | $0.125 |  | $10.00 |
+| Gemini 3.5 Flash | Lightweight | $1.50 | $0.15 |  | $9.00 |
+| GPT-5.6 Luna | Lightweight | $1.00 | $0.10 |  | $6.00 |
+| Claude Haiku 4.5 | Versatile | $1.00 | $0.10 | $1.25 | $5.00 |
+| MAI-Code-1-Flash | Lightweight | $0.75 | $0.075 |  | $4.50 |
+| Kimi K2.7 Code | Versatile | $0.95 | $0.19 |  | $4.00 |
+| GPT-5 mini | Lightweight | $0.25 | $0.025 |  | $2.00 |
+| Raptor mini | Versatile | $0.25 | $0.025 |  | $2.00 |
 
-Source: Models and pricing for GitHub Copilot - GitHub Docs, as of July 8, 2026.
+Source: <a target="_blank" href="https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing">Models and pricing for GitHub Copilot</a> (GitHub Docs)
 
 ---
 
