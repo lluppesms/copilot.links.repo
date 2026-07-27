@@ -26,6 +26,7 @@
 
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server?view=azure-devops">Set up the remote Azure DevOps MCP Server (preview)</a>  (MS Learn)
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-public-preview/">Azure DevOps Remote MCP Server (preview)</a> (Azure DevOps Blog - March 2026)
+- <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MS-DAW-TCA.ado-productivity-copilot">Install Git DevOps Assistant (MCP Powered)</a> (VS Marketplace)
 
 ### Learning Path
 
