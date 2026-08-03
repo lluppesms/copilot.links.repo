@@ -1,4 +1,4 @@
-https://code.visualstudio.com/learn/customizations/1-why-customization-matter## Learning Paths
+## Learning Paths
 
 - <a target="_blank" href="https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming">microsoft/Mastering-GitHub-Copilot-for-Paired-Programming: A multi-module course</a>
 - <a target="_blank" href="https://github.com/github/copilot-cli-for-beginners">GitHub Copilot CLI for Beginners</a> (GitHub official course)
