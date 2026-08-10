@@ -29,6 +29,8 @@
 - <a target="_blank" href="https://arcplane.ai/journal/software-is-not-solved">Coding is solved? Software is not.</a> (Arcplane.ai Blog - May 2026)
 - <a target="_blank" href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163">The AI Vampire</a> (Steve Yegge Blog - Feb 2026)
 
+### Articles - Cost Optimization
+- <a target="_blank" href="https://www.databricks.com/blog/managing-ai-coding-costs-scale">Managing AI Coding Costs at Scale</a> (databricks AI blog Aug 2026)
 
 ### Articles - Techniques
 - <a target="_blank" href="https://opensource.microsoft.com/blog/2026/04/09/how-drasi-used-github-copilot-to-find-documentation-bugs/">How Drasi used GitHub Copilot to find documentation bugs</a> (Microsoft Open Source Blog)
