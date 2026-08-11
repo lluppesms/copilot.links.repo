@@ -19,6 +19,8 @@
 
 ### Articles - Industry Trends
 - <a target="_blank" href="https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch">Tokenomics is the new headcount</a> Jared Spataro Blog (Microsoft CMO of AI@Work)
+- <a target="_blank" href="https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/">Blog: The state of global AI diffusion in 2026</a> (MS Blog - May 2026)
+    - <a target="_blank" href="https://www.microsoft.com/en-us/corporate-responsibility/topics/ai-economy-institute/reports/global-ai-adoption-2026-q1">Global AI Diffusion Report 2026</a> (Q1 2026 Trends and Insights)
 
 ### Articles - Our Careers
 - <a target="_blank" href="https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026">How tech workers are feeling in 2026: a workforce splitting in two</a> (July 2026 blog summarizing a survey of 5,920 tech professionals)
