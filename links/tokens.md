@@ -8,6 +8,13 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 
 ---
 
+### Custom Usage Dashboards
+
+- <a target="_blank" href="https://github.com/microsoft/CreditUsage">Copilot Credit Usage & Chargebacks - PBI Reports</a> (MS - GitHub Repo)
+- <a target="_blank" href="https://github.com/microsoft/Analytics-Hub">Open-source analytics tools for Microsoft Copilot and AI adoption - PBI Reports</a> (MS - GitHub Repo)
+
+---
+
 ### Token Efficiency
 
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/accelerate-usage/improve-agent-quality-and-token-optimization">Improve agent quality and token optimization</a> (GitHub Support Article)
