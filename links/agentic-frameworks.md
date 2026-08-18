@@ -23,6 +23,14 @@ A refined collection of instructions, prompts, agents, and skills to start your 
 
 ---
 
+### Squad + HVE-Core ??!!!
+
+An installable package that assembles HVE components into a bundle and then ships them with a Squad Coordinator!  (created by an MS engineer)
+
+- <a target="_blank" href="https://github.com/Peter-N91/hve-squad/">HVE-Squad Repo</a>
+
+---
+
 ### Git-Ape
 
 An intelligent Azure deployment agent system for GitHub Copilot. Provides guided, safe, and validated Azure resource deployments using ARM templates, with built-in security analysis, cost estimation, and CI/CD pipeline integration. (built by a Microsoft team)
