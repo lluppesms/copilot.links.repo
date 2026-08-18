@@ -9,6 +9,7 @@
 
 ### Best Practices
 - <a target="_blank" href="https://code.visualstudio.com/blogs/2026/03/13/how-VS-Code-Builds-with-AI">How VS Code Team Builds with AI</a>  (VS Code Blog - March 2026)
+- <a target="_blank" href="https://danielmeppiel.github.io/agentic-sdlc-handbook">The Agentic SDLC Handbook</a>  (Written and maintained by a Software Global Black Belt at Microsoft)
 
 ### Worst Practices
 - <a target="_blank" href="https://www.msn.com/en-us/news/other/uber-ceo-coo-says-ai-spending-not-yet-tied-to-measurable-improvements/ar-AA247Yu1">Uber CEO, COO says AI spending not yet tied to measurable improvements</a> MSN Summary - May 28, 2026<br />
