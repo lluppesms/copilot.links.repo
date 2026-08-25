@@ -47,3 +47,4 @@
 - <a target="_blank" href="https://www.dotnetrocks.com/details/1998">How AI Changes Development with Rob Conery</a> (DotNetRocks Podcast April 2026)
 - <a target="_blank" href="https://www.dotnetrocks.com/details/1991">Leading Teams in the Time of AI with Andrew Murphy</a> (DotNetRocks Podcast February 2026)
 - <a target="_blank" href="https://www.latent.space/p/github">GitHub's plan for Agents</a> (Latent Space Podcast with Kyle Daigle, COO/CMO GitHub - June 2, 2026)
+- <a target="_blank" href="https://www.dotnetrocks.com/details/2011">The Role of AI in Testing with Debbie O'Brien</a> Great conversation on testing with AI and Playwright (DotNetRocks Podcast July 2026)
