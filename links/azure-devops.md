@@ -4,8 +4,9 @@
 
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/azure-devops-and-github-journeying-into-the-ai-era/">Azure DevOps and GitHub: Journeying into the AI Era</a> (MS Blog - June 2, 2026)
 - <a target="_blank" href="https://build.microsoft.com/en-US/sessions/BRK202">Azure DevOps meets GitHub, the path to AI powered SDLC</a> (Video - MS Build 2026 Breakout)
-  > Presented by Dave Burniseon and Dan Hellem - the most knowledgable people I know on this topic...!  <br />See also - <a target="_blank" href="https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc">GitHub Repo for this session</a>
+  > Presented by Dave Burniseon and Dan Hellem - the two most knowledgable people I know on this topic...!  <br />See also - <a target="_blank" href="https://github.com/microsoft/Build26-BRK202-azure-devops-meets-github-the-path-to-ai-powered-sdlc">GitHub Repo for this session</a>
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/">Copilot Code Reviews for Azure Repos</a> (Technical Preview Feature - June 2026)
+  > Note: Originally private preview, this was released as public preview late August 2026, rolling out to customers. Pricing will be in tokens used (via AI Credits), pulled not from an existing GHCP plan, but charged directly to the Azure Subscription associated with the AzDO Organization.
 - <a target="_blank" href="https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/">Copilot Autofix for GitHub Advanced Security for Azure DevOps - Blog</a> (Technical Preview Feature - June 2026)
 - <a target="_blank" href="https://learn.microsoft.com/en-us/azure/devops/repos/security/github-advanced-security-code-scanning-autofix?view=azure-devops">Copilot Autofix for Code Scanning - Documentation</a> (Technical Preview Feature - June 2026)
 
