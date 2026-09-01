@@ -17,8 +17,9 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 
 ### Token Efficiency
 
+- <a target="_blank" href="https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/">The Economics of Agent Optimization: Four ways to lower the cost</a> (Azure Blog - August 2026)
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/accelerate-usage/improve-agent-quality-and-token-optimization">Improve agent quality and token optimization</a> (GitHub Support Article)
-- <a target="_blank" href="https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot">Improving token efficiency for GitHub Copilot in VS Code</a> (MS Blog - June 17, 2026)
+- <a target="_blank" href="https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot">Improving token efficiency for GitHub Copilot in VS Code</a> (MS Blog - June 2026)
 - <a target="_blank" href="https://learn.github.com/event/390d8d96-a2ba-4d80-aa8d-9f68b6bfaa3b">GitHub Copilot Token Optimization Workshop</a> (GH Recurring Webinar)
     > Note: You can also simply watch this <a target="_blank" href="https://www.youtube.com/live/LeALSSsbzHU">previously recorded session</a> on YouTube
 - <a target="_blank" href="https://github.com/aj-enns/token-economy">Token Economy: Optimizing GitHub Copilot Chat & Agents under Usage-Based Billing</a><br />(Repo full of tips by a MS CSA - May 2026)
