@@ -127,6 +127,10 @@ Introducing the <a target="_blank" href="https://github.com/microsoft/AI-Enginee
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
+{% include_relative links/tokenomics.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
 {% include_relative links/tokens.md %}
 </div>
 
