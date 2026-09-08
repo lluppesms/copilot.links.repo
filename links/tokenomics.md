@@ -2,11 +2,11 @@
 
 ### Five levers, ordered by leverage
 
-1. Context hygiene - Clear between tasks, compact proactively, resume when you can.
-2. Prompt discipline - Plan before coding, reference specific files and lines, not directories.
-3. Model selection - Match model tier to task complexity each session. Choose per phase not mid-conversation.
-4. Scope & tool control - Tight working directory, content exclusion, minimal custom instructions.
-5. Measurement - /usage, /context, and telemetry make waste visible.
+1. Context hygiene: Clear between tasks, compact proactively, resume when you can.
+2. Prompt discipline: Plan before coding, reference specific files and lines, not directories.
+3. Model selection: Match model tier to task complexity each session. Choose per phase not mid-conversation.
+4. Scope & tool control: Tight working directory, content exclusion, minimal custom instructions.
+5. Measurement: /usage, /context, and telemetry make waste visible.
 
 ### Ten Things You Can Do Today
 
@@ -21,7 +21,7 @@
 9. Open with /plan for anything beyond a one-line change
 10. Start small – start now: run /usage after your next three sessions. You'll know where to begin.
 
-### If you remember only one line from today
+### If you remember only one line from today - remember this
 
 > **Write as little context as required, and as much as necessary**
 
@@ -41,4 +41,4 @@
 - <a target="_blank" href="https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch">AI@Work: Tokenomics is the new headcount</a> (Jared Spataro Blog - Microsoft CMO of AI at Work)
 
 ### Presentation Slides
-- <a target="_blank" href="./files/GHCP_Tokenomics.pdf">GitHub Tokenomics Presentation</a> (Lyle Luppes - September 8, 2026)
+- <a target="_blank" href="./files/GHCP_Tokenomics.pdf">GitHub Tokenomics Presentation</a> (September 8, 2026)
