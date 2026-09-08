@@ -19,7 +19,7 @@
 7. Reference files with @path/to/file, not whole directories
 8. End every session with /usage: know what it cost
 9. Open with /plan for anything beyond a one-line change
-10. Three-command starter kit: clear /model /usage [context control, cost control, cost visibility]
+10. Start small – start now: run /usage after your next three sessions. You'll know where to begin.
 
 ### If you remember only one line from today
 
@@ -40,3 +40,5 @@
 - <a target="_blank" href="https://techcommunity.microsoft.com/blog/azurearchitectureblog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/4534171">Optimizing GitHub Copilot Cost in the Usage-Based Billing Era</a> (Azure Architecture Blog)
 - <a target="_blank" href="https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch">AI@Work: Tokenomics is the new headcount</a> (Jared Spataro Blog - Microsoft CMO of AI at Work)
 
+### Presentation Slides
+- <a target="_blank" href="./files/GHCP_Tokenomics.pdf">GitHub Tokenomics Presentation</a> (Lyle Luppes - September 8, 2026)
