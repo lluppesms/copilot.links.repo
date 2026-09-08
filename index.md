@@ -83,6 +83,10 @@ Introducing the <a target="_blank" href="https://github.com/microsoft/AI-Enginee
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">
+{% include_relative links/tokenomics.md %}
+</div>
+<hr class="section-sep">
+<div class="link-section" markdown="1">
 {% include_relative links/hooks.md %}
 </div>
 <hr class="section-sep">
@@ -124,10 +128,6 @@ Introducing the <a target="_blank" href="https://github.com/microsoft/AI-Enginee
 <hr class="section-sep">
 <div class="link-section" markdown="1">
 {% include_relative links/skills.md %}
-</div>
-<hr class="section-sep">
-<div class="link-section" markdown="1">
-{% include_relative links/tokenomics.md %}
 </div>
 <hr class="section-sep">
 <div class="link-section" markdown="1">

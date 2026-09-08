@@ -1,4 +1,30 @@
-## Tokenomics Course Links
+## GitHub Tokenomics Course
+
+### Five levers, ordered by leverage
+
+1. Context hygiene - Clear between tasks, compact proactively, resume when you can.
+2. Prompt discipline - Plan before coding, reference specific files and lines, not directories.
+3. Model selection - Match model tier to task complexity each session. Choose per phase not mid-conversation.
+4. Scope & tool control - Tight working directory, content exclusion, minimal custom instructions.
+5. Measurement - /usage, /context, and telemetry make waste visible.
+
+### Ten Things You Can Do Today
+
+1. Choose the right model for the task: use Auto mode, escalate only when needed
+2. Give clear, focused guidance in your prompts
+3. Work in phases - fresh window each time: Research -> Plan -> Implement
+4. Add deterministic guardrails: tests, linters, security scans
+5. Keep a concise, human-written copilot-instructions.md
+6. Start a new session per task: /clear or /new between unrelated work
+7. Reference files with @path/to/file, not whole directories
+8. End every session with /usage: know what it cost
+9. Open with /plan for anything beyond a one-line change
+10. Three-command starter kit: clear /model /usage [context control, cost control, cost visibility]
+
+### If you remember only one line from today
+
+> **Write as little context as required, and as much as necessary**
+
 
 ### Links Shared in Presentation
 - <a target="_blank" href="https://docs.github.com/en/copilot/reference/ai-models/model-comparison">AI Model Comparison</a> (GitHub Docs)
@@ -13,3 +39,4 @@
 - <a target="_blank" href="https://support.github.com/product-guides/github-copilot/accelerate-usage/improve-agent-quality-and-token-optimization">Improve Agent Quality and Token Optimization</a> (GitHub Docs)
 - <a target="_blank" href="https://techcommunity.microsoft.com/blog/azurearchitectureblog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/4534171">Optimizing GitHub Copilot Cost in the Usage-Based Billing Era</a> (Azure Architecture Blog)
 - <a target="_blank" href="https://www.microsoft.com/en-us/worklab/aiwork-tokenomics-is-the-new-headcount-and-four-more-trends-to-watch">AI@Work: Tokenomics is the new headcount</a> (Jared Spataro Blog - Microsoft CMO of AI at Work)
+
