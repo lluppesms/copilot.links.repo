@@ -10,6 +10,8 @@ Add-in for GHCP CLI to view cost live (repo developed by Microsoft CSA Gabriel M
 
 ### Custom Usage Dashboards
 
+Export your usage via the GHCP API (must be a Billing admin...), then import that data into these custom PBIs and create your own dashboards.
+
 - <a target="_blank" href="https://github.com/microsoft/CreditUsage">Copilot Credit Usage & Chargebacks - PBI Reports</a> (MS - GitHub Repo)
 - <a target="_blank" href="https://github.com/microsoft/Analytics-Hub">Open-source analytics tools for Microsoft Copilot and AI adoption - PBI Reports</a> (MS - GitHub Repo)
 
